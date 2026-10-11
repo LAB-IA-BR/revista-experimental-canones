@@ -6,7 +6,7 @@ byline: "Redação da turma · agosto de 2026"
 date: 2026-08-25
 kicker: "Manifesto · edição zero"
 resumo: "Não listar escolas, e sim ensaiar gestos. Cada texto aqui é instrumento de leitura — e candidato, também ele, a cânone."
-nav: critica
+nav: manifesto
 equipe: Redação
 ordem: 1
 ---
