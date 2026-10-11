@@ -34,6 +34,7 @@ MESES = (
 
 SECOES = (
     ("edicao", "Edição zero", "index.html"),
+    ("manifesto", "Manifesto", "pecas/o-que-pode-a-critica.html"),
     ("critica", "Crítica", "pecas/index.html"),
     ("clipping", "Clipping", "clipping/index.html"),
     ("sala", "Sala", "sala/index.html"),
@@ -205,7 +206,7 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
   <title>{title_esc} — Revista Experimental de Crítica Literária</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,800;1,9..144,400;1,9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{prefix}css/site.css">
 </head>
 <body>

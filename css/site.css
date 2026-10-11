@@ -7,9 +7,9 @@
   --hair: #d9cdb8;
   --accent: #b33d27;
   --accent-ink: #8f2e1c;
-  --sans: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --serif: "Newsreader", "Times New Roman", Times, serif;
-  --display: "Fraunces", "Newsreader", "Times New Roman", Times, serif;
+  --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: var(--sans);
+  --display: var(--sans);
   --measure: 1180px;
 }
 
@@ -803,8 +803,32 @@ nav.sections.is-stuck {
   border-bottom: 1px solid var(--hair);
 }
 
-.rail article:last-child {
+.rail article:last-of-type {
   border-bottom: 0;
+}
+
+.rail article.has-thumb {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.rail-thumb {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  background: var(--paper-deep);
+  border: 1px solid var(--hair);
+}
+
+.rail .rail-credit {
+  margin: 0.4rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--hair);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--muted);
 }
 
 .rail .eyebrow {
