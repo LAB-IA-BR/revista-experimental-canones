@@ -337,6 +337,11 @@ nav.sections.is-stuck {
   letter-spacing: 0.02em;
 }
 
+.byline strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+
 .cover {
   margin: 0;
   padding: 0;
@@ -1127,6 +1132,11 @@ nav.sections.is-stuck {
   letter-spacing: 0.02em;
   color: var(--muted);
   margin: 0 0 0.45rem;
+}
+
+.note-row .byline strong {
+  font-weight: 700;
+  color: var(--ink);
 }
 
 .note-row .premio-pais {

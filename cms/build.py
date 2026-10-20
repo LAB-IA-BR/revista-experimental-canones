@@ -409,7 +409,7 @@ def piece_html(entry: dict[str, Any], prefix: str) -> str:
       <p class="eyebrow">{html.escape(eyebrow)}</p>
       <h1>{html.escape(title)}</h1>
       <p class="deck">{inline(deck)}</p>
-      <p class="byline">{html.escape(byline)}</p>{ficha}
+      <p class="byline">{byline_html(byline)}</p>{ficha}
     </header>
 {cover_block(entry, prefix)}
     <div class="prose">
@@ -425,6 +425,20 @@ def inline(text: str) -> str:
     return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", html.escape(text))
 
 
+def byline_html(byline: str) -> str:
+    """Nome do autor em negrito; o restante (ex.: · rascunho) fica normal."""
+    text = byline.strip()
+    if not text:
+        return ""
+    if " · " in text:
+        nome, resto = text.split(" · ", 1)
+        return (
+            f"<strong>{html.escape(nome)}</strong>"
+            f" · {html.escape(resto)}"
+        )
+    return f"<strong>{html.escape(text)}</strong>"
+
+
 def note_row(
     entry: dict[str, Any],
     href: str,
@@ -437,8 +451,8 @@ def note_row(
     resumo = str(entry.get("resumo") or entry.get("deck") or "")
     title = str(entry.get("title") or entry["_slug"])
     byline = str(entry.get("byline") or "").strip() if with_byline else ""
-    byline_html = (
-        f'\n          <p class="byline">{html.escape(byline)}</p>' if byline else ""
+    byline_block = (
+        f'\n          <p class="byline">{byline_html(byline)}</p>' if byline else ""
     )
     thumb = str(entry.get("thumb") or entry.get("cover") or "").strip()
     thumb_html = ""
@@ -455,7 +469,7 @@ def note_row(
         <time datetime="{html.escape(iso)}">{html.escape(data_curta(iso))}</time>{thumb_html}
         <div>
           <p class="note-kicker">{html.escape(kicker)}</p>
-          <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>{byline_html}
+          <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>{byline_block}
           <p>{inline(resumo)}</p>
         </div>
       </article>"""
