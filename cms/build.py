@@ -36,6 +36,7 @@ SECOES = (
     ("edicao", "Edição zero", "index.html"),
     ("manifesto", "Manifesto", "pecas/o-que-pode-a-critica.html"),
     ("critica", "Crítica", "pecas/index.html"),
+    ("estudantina", "Estudantina", "estudantina/index.html"),
     ("clipping", "Clipping", "clipping/index.html"),
     ("sala", "Sala", "sala/index.html"),
     ("indicacoes", "Indicações", "indicacoes/index.html"),
@@ -62,6 +63,32 @@ LISTAGENS: dict[str, dict[str, str]] = {
             '<p class="prose">Quem escreve entra pela '
             '<a href="../redacao.html">mesa da redação</a>. '
             "O texto só vai ao ar depois do editor responsável aceitar.</p>\n"
+            '<p class="prose">Rascunhos ainda em elaboração ficam na '
+            '<a href="../estudantina/index.html">Estudantina</a>.</p>\n'
+        ),
+    },
+    "estudantina": {
+        "eyebrow": "Bancada da turma",
+        "title": "Estudantina",
+        "deck": (
+            "Colaborações ainda em fase embrionária. Cada nota registra o que já "
+            "chegou à redação — título, gesto e estado — sem fingir peça acabada."
+        ),
+        "description": (
+            "Estudantina: rascunhos e pautas da turma na Revista Experimental "
+            "de Crítica Literária."
+        ),
+        "nav": "estudantina",
+        "before": (
+            '<p class="prose">Aqui entra o que ainda não está pronto para '
+            "<em>Crítica</em> nem para <em>Indicações</em>. Quando o texto "
+            "amadurece, sobe de seção. Enquanto isso, a bancada fica visível "
+            "para a turma e para quem acompanha a edição zero.</p>\n"
+        ),
+        "after": (
+            '<p class="prose">Quer acrescentar ou atualizar um rascunho? '
+            'Use a <a href="../redacao.html">mesa da redação</a> ou o '
+            '<a href="../colaborar.html">cadastro editorial</a>.</p>\n'
         ),
     },
     "sala": {
@@ -540,9 +567,9 @@ def build(site: Path) -> int:
     content = site / "conteudo"
     n = 0
     publicadas: list[tuple[str, dict[str, Any]]] = []
-    for secao in ("pecas", "sala", "indicacoes", "premios"):
+    for secao in ("pecas", "estudantina", "sala", "indicacoes", "premios"):
         entries = load_entries(content / secao)
-        if secao != "sala":
+        if secao not in ("sala", "estudantina"):
             publicadas.extend((secao, e) for e in entries)
         dest = site / secao
         dest.mkdir(parents=True, exist_ok=True)
