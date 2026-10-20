@@ -29,6 +29,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(revista): montar HTML a partir da mesa"
-          file_pattern: pecas/** sala/** indicacoes/** premios/** equipes.html
+          file_pattern: pecas/** estudantina/** sala/** indicacoes/** premios/** equipes.html
           commit_user_name: Revista Experimental
           commit_user_email: orlando.albertino@ufes.br
