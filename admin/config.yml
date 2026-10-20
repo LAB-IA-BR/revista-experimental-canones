@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: orlandolopeses/revista-experimental-canones
+  repo: LAB-IA-BR/revista-experimental-canones
   branch: main
   squash_merges: true
   cms_label_prefix: sveltia-cms/
@@ -11,8 +11,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-site_url: https://orlandolopeses.github.io/revista-experimental-canones
-display_url: https://orlandolopeses.github.io/revista-experimental-canones
+site_url: https://lab-ia-br.github.io/revista-experimental-canones
+display_url: https://lab-ia-br.github.io/revista-experimental-canones
 locale: pt
 
 media_folder: img/uploads

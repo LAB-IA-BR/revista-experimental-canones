@@ -6,7 +6,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE="$ROOT/site"
 PAGES="${PAGES_DIR:-/tmp/revista-experimental-canones}"
-REPO="${PAGES_REPO:-git@github.com:orlandolopeses/revista-experimental-canones.git}"
+REPO="${PAGES_REPO:-git@github.com:LAB-IA-BR/revista-experimental-canones.git}"
 
 python3 "$ROOT/cms/build.py"
 
@@ -48,4 +48,4 @@ MSG="${REVISTA_COMMIT_MSG:-feat(revista): atualiza o site publicado}"
 git -C "$PAGES" -c user.email="orlandolopes.es@gmail.com" -c user.name="Orlando Lopes" \
   commit -m "$MSG"
 git -C "$PAGES" push origin main
-echo "publicado: https://orlandolopeses.github.io/revista-experimental-canones/"
+echo "publicado: https://lab-ia-br.github.io/revista-experimental-canones/"
