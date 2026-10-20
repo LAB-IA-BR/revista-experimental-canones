@@ -409,16 +409,20 @@ def inline(text: str) -> str:
     return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", html.escape(text))
 
 
-def note_row(entry: dict[str, Any], href: str) -> str:
+def note_row(entry: dict[str, Any], href: str, *, with_byline: bool = False) -> str:
     iso = entry.get("date") or ""
     kicker = str(entry.get("kicker") or entry.get("eyebrow") or "")
     resumo = str(entry.get("resumo") or entry.get("deck") or "")
     title = str(entry.get("title") or entry["_slug"])
+    byline = str(entry.get("byline") or "").strip() if with_byline else ""
+    byline_html = (
+        f'\n          <p class="byline">{html.escape(byline)}</p>' if byline else ""
+    )
     return f"""      <article class="note-row">
         <time datetime="{html.escape(iso)}">{html.escape(data_curta(iso))}</time>
         <div>
           <p class="note-kicker">{html.escape(kicker)}</p>
-          <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>
+          <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>{byline_html}
           <p>{inline(resumo)}</p>
         </div>
       </article>"""
@@ -426,7 +430,11 @@ def note_row(entry: dict[str, Any], href: str) -> str:
 
 def listing_html(secao: str, entries: list[dict[str, Any]], prefix: str) -> str:
     info = LISTAGENS[secao]
-    rows = [note_row(entry, f"{entry['_slug']}.html") for entry in entries]
+    with_byline = secao == "estudantina"
+    rows = [
+        note_row(entry, f"{entry['_slug']}.html", with_byline=with_byline)
+        for entry in entries
+    ]
     main = f"""    <header class="page-intro">
       <p class="eyebrow">{html.escape(info["eyebrow"])}</p>
       <h1 class="page-title">{html.escape(info["title"])}</h1>

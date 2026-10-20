@@ -1,5 +1,5 @@
 ---
-title: "Conteúdo para a revista · Marina"
+title: "Conteúdo para a revista"
 eyebrow: "Em elaboração · 13/10/2026"
 deck: "Rascunho de conteúdo editorial em aberto, com indicação de leitura de Pachinko, de Min Jin Lee."
 byline: "Marina Maia Costa · rascunho"
