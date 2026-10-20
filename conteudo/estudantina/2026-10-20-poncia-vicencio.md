@@ -7,6 +7,10 @@ date: 2026-10-20
 kicker: "Em elaboração · crítica"
 resumo: "Crítica em rascunho sobre Ponciá Vicêncio (Conceição Evaristo): memória, identidade e resistência."
 nav: estudantina
+cover: "estudantina/poncia-vicencio.jpg"
+thumb: "estudantina/poncia-vicencio-thumb.jpg"
+cover_alt: "Estrada de barro vermelho entre o campo e a silhueta de uma cidade, com faixas de memória no céu."
+cover_credit: "Ilustração da redação · edição zero."
 ---
 
 Texto ainda em elaboração. A pauta é a crítica de *Ponciá Vicêncio*, de Conceição Evaristo: como a memória organiza a identidade da personagem e o que a narrativa faz com deslocamento, perda e resistência.

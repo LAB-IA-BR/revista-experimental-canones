@@ -1062,6 +1062,34 @@ nav.sections.is-stuck {
   border-bottom: 1px solid var(--hair);
 }
 
+.note-row.has-thumb {
+  grid-template-columns: 8.2rem 7rem minmax(0, 1fr);
+  align-items: start;
+}
+
+.note-thumb {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  background: var(--paper-deep);
+  border: 1px solid var(--hair);
+}
+
+.piece-cover {
+  margin: 0 0 1.8rem;
+  max-width: 28rem;
+}
+
+.piece-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid var(--hair);
+  background: var(--paper-deep);
+}
+
 .note-row time {
   font-size: 0.78rem;
   color: var(--muted);
@@ -1609,6 +1637,19 @@ footer.site {
   .galeria,
   .galeria-hub {
     grid-template-columns: 1fr;
+  }
+
+  .note-row.has-thumb {
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+  }
+
+  .note-row.has-thumb time {
+    grid-column: 1 / -1;
+  }
+
+  .note-thumb {
+    width: 5.5rem;
+    height: 5.5rem;
   }
 
   .note-row time,

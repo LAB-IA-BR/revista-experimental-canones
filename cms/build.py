@@ -373,6 +373,22 @@ def load_entries(folder: Path) -> list[dict[str, Any]]:
     return entries
 
 
+def cover_block(entry: dict[str, Any], prefix: str) -> str:
+    cover = str(entry.get("cover") or "").strip()
+    if not cover:
+        return ""
+    alt = str(entry.get("cover_alt") or entry.get("title") or "").strip()
+    credit = str(entry.get("cover_credit") or "").strip()
+    credit_html = (
+        f'\n      <p class="cover-credit">{html.escape(credit)}</p>' if credit else ""
+    )
+    src = html.escape(f"{prefix}img/{cover}", quote=True)
+    return f"""    <figure class="piece-cover">
+      <img src="{src}" alt="{html.escape(alt)}" width="960" height="960" loading="lazy">{credit_html}
+    </figure>
+"""
+
+
 def piece_html(entry: dict[str, Any], prefix: str) -> str:
     title = str(entry.get("title") or entry["_slug"])
     eyebrow = str(entry.get("eyebrow") or "")
@@ -395,7 +411,7 @@ def piece_html(entry: dict[str, Any], prefix: str) -> str:
       <p class="deck">{inline(deck)}</p>
       <p class="byline">{html.escape(byline)}</p>{ficha}
     </header>
-
+{cover_block(entry, prefix)}
     <div class="prose">
 {body_html}
     </div>
@@ -409,7 +425,13 @@ def inline(text: str) -> str:
     return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", html.escape(text))
 
 
-def note_row(entry: dict[str, Any], href: str, *, with_byline: bool = False) -> str:
+def note_row(
+    entry: dict[str, Any],
+    href: str,
+    *,
+    with_byline: bool = False,
+    img_prefix: str = "",
+) -> str:
     iso = entry.get("date") or ""
     kicker = str(entry.get("kicker") or entry.get("eyebrow") or "")
     resumo = str(entry.get("resumo") or entry.get("deck") or "")
@@ -418,8 +440,19 @@ def note_row(entry: dict[str, Any], href: str, *, with_byline: bool = False) -> 
     byline_html = (
         f'\n          <p class="byline">{html.escape(byline)}</p>' if byline else ""
     )
-    return f"""      <article class="note-row">
-        <time datetime="{html.escape(iso)}">{html.escape(data_curta(iso))}</time>
+    thumb = str(entry.get("thumb") or entry.get("cover") or "").strip()
+    thumb_html = ""
+    has_thumb = ""
+    if thumb:
+        alt = str(entry.get("cover_alt") or title).strip()
+        src = html.escape(f"{img_prefix}img/{thumb}", quote=True)
+        thumb_html = (
+            f'\n        <img class="note-thumb" src="{src}" '
+            f'alt="{html.escape(alt)}" width="240" height="240" loading="lazy">'
+        )
+        has_thumb = " has-thumb"
+    return f"""      <article class="note-row{has_thumb}">
+        <time datetime="{html.escape(iso)}">{html.escape(data_curta(iso))}</time>{thumb_html}
         <div>
           <p class="note-kicker">{html.escape(kicker)}</p>
           <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>{byline_html}
@@ -432,7 +465,12 @@ def listing_html(secao: str, entries: list[dict[str, Any]], prefix: str) -> str:
     info = LISTAGENS[secao]
     with_byline = secao == "estudantina"
     rows = [
-        note_row(entry, f"{entry['_slug']}.html", with_byline=with_byline)
+        note_row(
+            entry,
+            f"{entry['_slug']}.html",
+            with_byline=with_byline,
+            img_prefix=prefix,
+        )
         for entry in entries
     ]
     main = f"""    <header class="page-intro">

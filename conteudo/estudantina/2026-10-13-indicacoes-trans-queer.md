@@ -7,6 +7,10 @@ date: 2026-10-13
 kicker: "Em elaboração · indicações"
 resumo: "Pauta em rascunho: indicações de autoria trans, não binária e queer para além da crítica a Rowling."
 nav: estudantina
+cover: "estudantina/indicacoes-trans-queer.jpg"
+thumb: "estudantina/indicacoes-trans-queer-thumb.jpg"
+cover_alt: "Estante de livros abertos sob luz prismática em terracota e verde-água."
+cover_credit: "Ilustração da redação · edição zero."
 ---
 
 Texto ainda em elaboração. A pauta já está nomeada: indicações literárias de autoria trans, não binária e queer, em resposta ao que a crítica a Rowling deixa de fora. O Doc da colaboradora lista Juno Dawson, Milo Todd, Nicola Dinan e Juliet Jacques.
