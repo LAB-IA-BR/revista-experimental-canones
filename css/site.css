@@ -1359,11 +1359,16 @@ button.linkish:hover {
   text-decoration: none;
 }
 
-.mesa-acoes {
+.mesa-acoes:not(.form-actions) {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem 1rem;
   margin: 0 0 1rem;
+}
+
+.estudio-main .form-actions.mesa-acoes {
+  margin: 0 0 1rem;
+  max-width: none;
 }
 
 button.ghost {
@@ -1492,21 +1497,39 @@ button.ghost:hover {
 
 .form-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  align-items: center;
-  margin-top: 1.2rem;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-top: 1.6rem;
+  padding-top: 0.4rem;
+  max-width: 36rem;
 }
 
-.form-actions button[type="submit"] {
-  margin-left: auto;
+.form-actions-lead {
+  margin: -0.35rem 0 0.2rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--ink);
 }
 
-@media (max-width: 640px) {
-  .form-actions button[type="submit"] {
-    margin-left: 0;
-    width: 100%;
-  }
+.form-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.form-action .hint {
+  margin: 0;
+  max-width: 32rem;
+}
+
+.form-action--primary button {
+  min-width: min(100%, 18rem);
+}
+
+.form-action .ghost {
+  min-width: min(100%, 18rem);
 }
 
 .plan-cta {

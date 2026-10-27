@@ -166,9 +166,12 @@
           em: Date.now(),
         })
       );
-      setStatus("ok", "Rascunho salvo neste navegador.");
+      setStatus(
+        "ok",
+        "Rascunho guardado só neste navegador. A Editoria ainda não recebeu — use «Enviar proposta à Editoria» quando estiver pronto."
+      );
     } catch (err) {
-      setStatus("err", "Não foi possível salvar neste navegador.");
+      setStatus("err", "Não foi possível guardar o rascunho neste navegador.");
     }
   }
 
@@ -185,7 +188,10 @@
     a.download = md.slug + ".md";
     a.click();
     URL.revokeObjectURL(a.href);
-    setStatus("ok", "Markdown baixado. O envio à Editoria é o botão Enviar.");
+    setStatus(
+      "ok",
+      "Cópia .md baixada no seu computador. Isso não enviou nada — para mandar à Editoria, use «Enviar proposta à Editoria»."
+    );
   }
 
   try {

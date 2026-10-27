@@ -189,10 +189,24 @@
         </label>
       </div>
 
-      <div class="form-actions">
-        <button type="button" class="ghost" id="salvar-local">Salvar neste navegador</button>
-        <button type="button" class="ghost" id="baixar-md">Baixar markdown</button>
-        <button type="submit" id="enviar">Enviar à Editoria</button>
+      <div class="form-actions" role="group" aria-labelledby="acoes-titulo">
+        <h2 class="form-section-title" id="acoes-titulo">O que fazer agora</h2>
+        <p class="form-actions-lead">Só o primeiro botão manda a proposta. Os outros dois são opcionais e <strong>não</strong> avisam a Editoria.</p>
+
+        <div class="form-action form-action--primary">
+          <button type="submit" id="enviar" aria-describedby="hint-enviar">Enviar proposta à Editoria</button>
+          <span class="hint" id="hint-enviar">Manda este formulário por e-mail à mesa. Não publica no site — a Editoria lê e só então encaminha.</span>
+        </div>
+
+        <div class="form-action">
+          <button type="button" class="ghost" id="salvar-local" aria-describedby="hint-salvar">Guardar rascunho só neste navegador</button>
+          <span class="hint" id="hint-salvar">Opcional. Fica neste computador para você continuar depois. A Editoria não recebe nada.</span>
+        </div>
+
+        <div class="form-action">
+          <button type="button" class="ghost" id="baixar-md" aria-describedby="hint-baixar">Baixar cópia do texto (.md)</button>
+          <span class="hint" id="hint-baixar">Opcional. Baixa um arquivo Markdown para o seu disco (arquivo ou Zap). Não envia à Editoria.</span>
+        </div>
       </div>
       <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
     </form>

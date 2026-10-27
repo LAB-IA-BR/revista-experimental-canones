@@ -133,10 +133,21 @@
           <p class="footer-label">Imagens deste rascunho</p>
           <ul class="midia-lista" id="lista-imagens"></ul>
         </div>
-        <div class="mesa-acoes">
-          <button type="button" class="ghost" id="salvar-rascunho">Salvar rascunho</button>
-          <button type="submit" id="enviar-peca">Enviar à redação</button>
-          <button type="button" class="ghost" id="baixar-md">Baixar o markdown</button>
+        <div class="form-actions mesa-acoes" role="group" aria-labelledby="mesa-acoes-titulo">
+          <h2 class="form-section-title" id="mesa-acoes-titulo">O que fazer agora</h2>
+          <p class="form-actions-lead">Só «Enviar à redação» manda o texto. Os outros dois são opcionais e não avisam a Editoria.</p>
+          <div class="form-action form-action--primary">
+            <button type="submit" id="enviar-peca" aria-describedby="hint-enviar-peca">Enviar à redação</button>
+            <span class="hint" id="hint-enviar-peca">Manda markdown (e imagens) por e-mail à mesa. Não publica no site.</span>
+          </div>
+          <div class="form-action">
+            <button type="button" class="ghost" id="salvar-rascunho" aria-describedby="hint-salvar-rascunho">Guardar rascunho só neste navegador</button>
+            <span class="hint" id="hint-salvar-rascunho">Opcional. Fica neste computador. A Editoria não recebe.</span>
+          </div>
+          <div class="form-action">
+            <button type="button" class="ghost" id="baixar-md" aria-describedby="hint-baixar-peca">Baixar cópia do texto (.md)</button>
+            <span class="hint" id="hint-baixar-peca">Opcional. Arquivo no seu disco. Não envia à Editoria.</span>
+          </div>
         </div>
         <p class="form-status" id="peca-status" role="status" aria-live="polite"></p>
       </form>
