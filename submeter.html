@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Submeta uma proposta de colaboração à Revista Experimental de Crítica Literária (DLT13973). A Editoria lê e decide a seção.">
+  <title>Submeter proposta — Revista Experimental de Crítica Literária</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir ao conteúdo</a>
+  <div class="wrap">
+    <header class="site-head">
+      <div class="kicker-bar">
+        <a class="kicker-logo" href="https://www.ufes.br/" rel="noopener noreferrer">
+          <img src="img/marca-ufes-header.svg" alt="UFES — Universidade Federal do Espírito Santo" width="104" height="57">
+        </a>
+        <p class="kicker-text">
+          <span class="kicker-title">Cânones da crítica internacional</span>
+          <span class="kicker-meta">UFES · Departamento de Letras · T01 · 2026/2</span>
+        </p>
+      </div>
+      <div class="masthead">
+        <div class="masthead-brand">
+          <a class="wordmark" href="index.html">Revista Experimental <span>de Crítica Literária</span></a>
+          <p class="tagline">{ a revista da turma }</p>
+        </div>
+        <p class="masthead-issue"><strong>00</strong><span>Edição zero · agosto a dezembro de 2026</span></p>
+      </div>
+      <nav class="sections" aria-label="Seções">
+      <a href="index.html">Edição zero</a>
+      <a href="pecas/o-que-pode-a-critica.html">Manifesto</a>
+      <a href="pecas/index.html">Crítica</a>
+      <a href="estudantina/index.html">Estudantina</a>
+      <a href="clipping/index.html">Clipping</a>
+      <a href="sala/index.html">Sala</a>
+      <a href="indicacoes/index.html">Indicações</a>
+      <a href="premios/index.html">Prêmios</a>
+      <a href="equipes.html">Equipes</a>
+      <a href="colaborar.html">Colaborar</a>
+      <a href="expediente.html">Expediente</a>
+      </nav>
+    </header>
+    <main id="conteudo">
+
+    <header class="page-intro">
+      <p class="eyebrow">Produção</p>
+      <h1 class="page-title">Submeter proposta de colaboração</h1>
+      <p class="deck">Envie a ficha e o gesto crítico à Editoria. Isto não publica no site: a mesa lê, responde e, se aceitar, coloca o texto na Estudantina ou sobe para Crítica / Indicações.</p>
+    </header>
+
+    <p class="prose">Quem ainda não está na redação faz antes o <a href="colaborar.html">cadastro editorial</a>. Peça longa com imagens e vídeo: use a <a href="redacao.html">mesa da redação</a> (senha da sala). Modelo em Doc, se preferir: <a href="https://docs.google.com/document/d/1VXHTx7lhtv06vwUze2KBZrXMvxrjJKyfaWXU8QCpD8c/copy" rel="noopener noreferrer">fazer uma cópia</a>.</p>
+
+    <form class="cadastro" id="proposta" novalidate>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <h2 class="form-section-title">1. Identificação</h2>
+      <div class="field">
+        <label for="nome_completo">Nome completo</label>
+        <input id="nome_completo" name="nome_completo" type="text" required autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="nome_assinatura">Nome como quer assinar</label>
+        <input id="nome_assinatura" name="nome_assinatura" type="text" required autocomplete="nickname">
+        <span class="hint">O byline. O mesmo do cadastro, se já fez.</span>
+      </div>
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required autocomplete="email" placeholder="nome@edu.ufes.br">
+      </div>
+      <div class="field">
+        <label for="matricula">Matrícula UFES (se houver)</label>
+        <input id="matricula" name="matricula" type="text" inputmode="numeric" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="equipe">Equipe continental</label>
+        <select id="equipe" name="equipe" required>
+          <option value="" selected disabled>Escolha</option>
+          <option>América do Sul</option>
+          <option>América do Norte</option>
+          <option>Europa</option>
+          <option>África</option>
+          <option>Ásia</option>
+          <option>Oceania</option>
+          <option>Redação</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="oficio">Ofício nesta proposta</label>
+        <select id="oficio" name="oficio" required>
+          <option value="" selected disabled>Escolha</option>
+          <option>Crítica</option>
+          <option>Edição</option>
+          <option>Revisão</option>
+          <option>Tradução</option>
+          <option>Monitoramento</option>
+          <option>Design</option>
+          <option>Redes</option>
+          <option>Outro</option>
+        </select>
+      </div>
+
+      <h2 class="form-section-title">2. Ficha da peça</h2>
+      <div class="field">
+        <label for="modalidade">Modalidade</label>
+        <select id="modalidade" name="modalidade" required>
+          <option value="" selected disabled>Escolha</option>
+          <option>crítica</option>
+          <option>indicação</option>
+          <option>nota</option>
+          <option>tradução</option>
+          <option>verbete</option>
+          <option>pauta</option>
+          <option>outro</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="titulo">Título provisório</label>
+        <input id="titulo" name="titulo" type="text" required>
+      </div>
+      <div class="field">
+        <label for="deck">Subtítulo ou deck</label>
+        <textarea id="deck" name="deck" rows="2" required placeholder="Uma frase: o que o leitor deve reter."></textarea>
+      </div>
+      <div class="field">
+        <label for="obras">Obra(s) ou corpus</label>
+        <textarea id="obras" name="obras" rows="2" required placeholder="Autor, título, ano; se tradução, idioma de origem."></textarea>
+      </div>
+      <div class="field">
+        <label for="pergunta">Pergunta ou problema crítico</label>
+        <textarea id="pergunta" name="pergunta" rows="3" required placeholder="1–3 linhas."></textarea>
+      </div>
+      <div class="field">
+        <label for="status_peca">Status</label>
+        <select id="status_peca" name="status_peca" required>
+          <option value="rascunho" selected>rascunho</option>
+          <option value="pronto para leitura da mesa">pronto para leitura da mesa</option>
+          <option value="revisado após interlocução">revisado após interlocução</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="secao">Seção pretendida</label>
+        <select id="secao" name="secao" required>
+          <option value="estudantina" selected>Estudantina (bancada)</option>
+          <option value="critica">Crítica</option>
+          <option value="indicacoes">Indicações</option>
+          <option value="outra">outra</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="extensao">Extensão prevista</label>
+        <input id="extensao" name="extensao" type="text" placeholder="ex.: 2 páginas · 800 palavras">
+      </div>
+
+      <h2 class="form-section-title">3. Ferramentas de texto e IA</h2>
+      <div class="field">
+        <label for="usou_ia">Usei IA ou outra ferramenta de texto?</label>
+        <select id="usou_ia" name="usou_ia" required>
+          <option value="nao" selected>não</option>
+          <option value="sim">sim</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="ia_para">Para quê (se sim)</label>
+        <input id="ia_para" name="ia_para" type="text" placeholder="pesquisa, rascunho, revisão, tradução auxiliar…">
+      </div>
+      <div class="field">
+        <label for="autoria">O que é de minha autoria crítica</label>
+        <textarea id="autoria" name="autoria" rows="2" required placeholder="Argumento, juízo, seleção de obras, responsabilidade pela versão final."></textarea>
+      </div>
+
+      <h2 class="form-section-title">4. Corpo ou abertura</h2>
+      <div class="field">
+        <label for="corpo">Texto</label>
+        <textarea id="corpo" name="corpo" rows="12" required placeholder="Cole o rascunho ou a abertura. Se o texto longo estiver em outro Doc, indique o link abaixo e deixe aqui o essencial."></textarea>
+      </div>
+      <div class="field">
+        <label for="link_doc">Link de Doc anexo (opcional)</label>
+        <input id="link_doc" name="link_doc" type="url" placeholder="https://docs.google.com/… — compartilhado com o professor como leitor">
+      </div>
+
+      <div class="field">
+        <label class="consent">
+          <input id="lgpd" name="lgpd" type="checkbox" required>
+          Autorizo o uso destes dados apenas para organizar a redação da disciplina DLT13973 (2026/2). Matrícula e e-mail não serão publicados no site.
+        </label>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="ghost" id="salvar-local">Salvar neste navegador</button>
+        <button type="button" class="ghost" id="baixar-md">Baixar markdown</button>
+        <button type="submit" id="enviar">Enviar à Editoria</button>
+      </div>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+    </main>
+  </div>
+  <footer class="site">
+    <div class="wrap footer-inner">
+      <div class="footer-col">
+        <p class="footer-wordmark">Revista Experimental de Crítica Literária</p>
+        <p>Órgão da optativa Cânones da crítica internacional. Universidade Federal do Espírito Santo · Departamento de Letras.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-label">Seções</p>
+        <nav aria-label="Rodapé">
+          <a href="index.html">Edição zero</a>
+          <a href="pecas/o-que-pode-a-critica.html">Manifesto</a>
+          <a href="pecas/index.html">Crítica</a>
+          <a href="estudantina/index.html">Estudantina</a>
+          <a href="clipping/index.html">Clipping</a>
+          <a href="sala/index.html">Sala</a>
+          <a href="indicacoes/index.html">Indicações</a>
+          <a href="premios/index.html">Prêmios</a>
+          <a href="equipes.html">Equipes</a>
+          <a href="colaborar.html">Colaborar</a>
+          <a href="expediente.html">Expediente</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <p class="footer-label">Redação</p>
+        <div class="footer-links">
+          <a href="colaborar.html">Cadastro editorial</a>
+          <a href="submeter.html">Submeter proposta</a>
+          <a href="redacao.html">Mesa da redação</a>
+          <a href="https://docs.google.com/document/d/1I5Ybu2rNf_n_gFVQfd7LbW5SNqcljrD9nsHUGacFt9o/edit" rel="noopener noreferrer">Plano de curso</a>
+          <a href="mailto:orlando.albertino@ufes.br">orlando.albertino@ufes.br</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <p class="footer-legal">UFES · DLL · T01 · 2026/2 · Vitória, ES · © <span id="ano">2026</span></p>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+  <script src="js/submeter.js"></script>
+</body>
+</html>

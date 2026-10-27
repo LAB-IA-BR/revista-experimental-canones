@@ -60,7 +60,8 @@ LISTAGENS: dict[str, dict[str, str]] = {
         "after": (
             '<p class="prose">Aqui só entram textos da turma. O que a redação '
             'guardou de outros veículos está no <a href="../clipping/index.html">Clipping</a>.</p>\n'
-            '<p class="prose">Quem escreve entra pela '
+            '<p class="prose">Quem escreve começa em '
+            '<a href="../submeter.html">Submeter proposta</a> ou na '
             '<a href="../redacao.html">mesa da redação</a>. '
             "O texto só vai ao ar depois do editor responsável aceitar.</p>\n"
             '<p class="prose">Rascunhos ainda em elaboração ficam na '
@@ -87,8 +88,10 @@ LISTAGENS: dict[str, dict[str, str]] = {
         ),
         "after": (
             '<p class="prose">Quer acrescentar ou atualizar um rascunho? '
-            'Use a <a href="../redacao.html">mesa da redação</a> ou o '
-            '<a href="../colaborar.html">cadastro editorial</a>.</p>\n'
+            'Envie pela página <a href="../submeter.html">Submeter proposta</a> '
+            '(sem senha) ou pela <a href="../redacao.html">mesa da redação</a>. '
+            'Cadastro, se ainda não fez: '
+            '<a href="../colaborar.html">ficha editorial</a>.</p>\n'
         ),
     },
     "sala": {
@@ -281,6 +284,7 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
         <p class="footer-label">Redação</p>
         <div class="footer-links">
           <a href="{prefix}colaborar.html">Cadastro editorial</a>
+          <a href="{prefix}submeter.html">Submeter proposta</a>
           <a href="{prefix}redacao.html">Mesa da redação</a>
           <a href="https://docs.google.com/document/d/1I5Ybu2rNf_n_gFVQfd7LbW5SNqcljrD9nsHUGacFt9o/edit" rel="noopener noreferrer">Plano de curso</a>
           <a href="mailto:orlando.albertino@ufes.br">orlando.albertino@ufes.br</a>

@@ -12,6 +12,7 @@ Sveltia em `site/admin/` permanece para uso do editor, se quiser. A turma não p
 | `site/conteudo/` | Fonte editorial: peças, indicações, notas de sala. |
 | `cms/build.py` | Lê o markdown e escreve `site/pecas/`, `site/sala/`, `site/indicacoes/`. |
 | `site/redacao/colaboradores.json` | Cadastro público da redação (byline, equipe, ofício; sem PII). |
+| `site/submeter.html` | Proposta de colaboração (sem senha): ficha + texto → e-mail da Editoria. |
 | `site/redacao.html` | Estúdio: login, rascunhos, imagem, vídeo. |
 | `cms/github/montar-revista.yml` | Action no repo Pages: gera HTML quando o markdown muda. |
 
@@ -19,10 +20,10 @@ O Clipping (`clipping/colecao-critica.json`), `videos.json` e `podcasts.json` **
 
 ## Fluxo do aluno
 
-1. Cadastro editorial, se ainda não fez.
-2. Abrir `/redacao.html`, entrar com o nome de assinatura e a senha da redação.
-3. Escrever, enviar. O rascunho sobrevive se fechar a aba.
-4. O editor recebe o markdown, publica, e a peça aparece em Crítica ou Indicações.
+1. Cadastro editorial, se ainda não fez (`/colaborar.html`).
+2. Submeter proposta em `/submeter.html` (sem senha) — ficha + gesto crítico vão à Editoria com markdown pronto.
+3. Peça com imagem/vídeo: `/redacao.html`, nome de assinatura + senha da redação (tipo Proposta/Estudantina, Crítica ou Indicação).
+4. O editor recebe o markdown, grava em `conteudo/`, monta o HTML; a peça aparece na Estudantina, em Crítica ou em Indicações.
 
 ## Fluxo do editor
 
