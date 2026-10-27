@@ -1480,6 +1480,35 @@ button.ghost:hover {
   color: #7a1f1f;
 }
 
+.form-section-title {
+  margin: 2.2rem 0 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted, #5a5a5a);
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.form-actions button[type="submit"] {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .form-actions button[type="submit"] {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 .plan-cta {
   margin: 2.4rem 0 0.2rem;
   padding: 1.5rem 1.2rem 1.65rem;

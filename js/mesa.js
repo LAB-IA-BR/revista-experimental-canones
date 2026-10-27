@@ -208,7 +208,7 @@
     var ficha = fichaLocal() || {};
     preencherForm({
       id: uid(),
-      tipo: "peca",
+      tipo: "estudantina",
       title: "",
       deck: "",
       equipe: ficha.equipe || s.equipe || "",
@@ -221,18 +221,42 @@
   }
 
   function markdown(d) {
-    var secao = d.tipo === "indicacao" ? "indicacoes" : "pecas";
-    var nav = d.tipo === "indicacao" ? "indicacoes" : "critica";
+    var secao =
+      d.tipo === "indicacao"
+        ? "indicacoes"
+        : d.tipo === "estudantina"
+          ? "estudantina"
+          : "pecas";
+    var nav =
+      d.tipo === "indicacao"
+        ? "indicacoes"
+        : d.tipo === "estudantina"
+          ? "estudantina"
+          : "critica";
+    var eyebrow =
+      d.tipo === "indicacao"
+        ? "Indicação"
+        : d.tipo === "estudantina"
+          ? "Em elaboração"
+          : "Crítica";
+    var byline =
+      d.tipo === "estudantina" && d.byline.indexOf("rascunho") === -1
+        ? d.byline + " · rascunho"
+        : d.byline;
     var linhas = [
       "---",
       'title: "' + d.title.replace(/"/g, '\\"') + '"',
-      'eyebrow: "' + (d.tipo === "indicacao" ? "Indicação" : "Crítica") + '"',
+      'eyebrow: "' + eyebrow + '"',
       'deck: "' + d.deck.replace(/"/g, '\\"') + '"',
-      'byline: "' + d.byline.replace(/"/g, '\\"') + '"',
+      'byline: "' + byline.replace(/"/g, '\\"') + '"',
       "date: " + d.date,
       "equipe: " + d.equipe,
       "nav: " + nav,
     ];
+    if (d.tipo === "estudantina") {
+      linhas.push('kicker: "Em elaboração"');
+      linhas.push('resumo: "' + d.deck.replace(/"/g, '\\"') + '"');
+    }
     if (d.youtube) {
       linhas.push("youtube: " + d.youtube);
       linhas.push('origem: "https://youtu.be/' + d.youtube + '"');
@@ -538,7 +562,17 @@
     Promise.all(jobs)
       .then(function (arquivos) {
         var fd = new FormData();
-        fd.append("_subject", (d.tipo === "indicacao" ? "Indicação" : "Peça") + " — " + d.title + " — Revista Experimental (DLT13973)");
+        fd.append(
+          "_subject",
+          (d.tipo === "indicacao"
+            ? "Indicação"
+            : d.tipo === "estudantina"
+              ? "Proposta / Estudantina"
+              : "Peça") +
+            " — " +
+            d.title +
+            " — Revista Experimental (DLT13973)"
+        );
         fd.append("_template", "box");
         fd.append("_captcha", "false");
         fd.append("tipo", d.tipo);
@@ -584,7 +618,15 @@
       .catch(function (err) {
         var mailto =
           "mailto:orlando.albertino@ufes.br?subject=" +
-          encodeURIComponent((d.tipo === "indicacao" ? "Indicação" : "Peça") + " — " + d.title) +
+          encodeURIComponent(
+            (d.tipo === "indicacao"
+              ? "Indicação"
+              : d.tipo === "estudantina"
+                ? "Proposta / Estudantina"
+                : "Peça") +
+              " — " +
+              d.title
+          ) +
           "&body=" +
           encodeURIComponent(md.texto);
         var prefix =
