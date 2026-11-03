@@ -377,17 +377,20 @@ def premio_obra_figure(
     premio_slug: str,
     img_prefix: str,
     credit: str = "",
+    author_name: str = "",
 ) -> str:
     folder = ROOT / "img" / "premios" / premio_slug
     autor = folder / f"{obra_id}-autor.jpg"
     capa = folder / f"{obra_id}-capa.jpg"
+    alt_autor = html.escape(author_name or "Autor", quote=True)
     blocks: list[str] = []
     if _premio_cover_ok(capa):
         src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-capa.jpg", quote=True)
         blocks.append(
             '<div class="premio-obra-celula premio-obra-celula--capa">'
             f'<span class="premio-obra-rotulo">Capa</span>'
-            f'<img class="premio-obra-capa" src="{src}" alt="" width="200" height="300" loading="lazy">'
+            f'<img class="premio-obra-capa" src="{src}" alt="Capa — {alt_autor}" '
+            f'width="280" height="420" loading="lazy" decoding="async">'
             "</div>"
         )
     if _premio_image_portrait(autor):
@@ -395,7 +398,8 @@ def premio_obra_figure(
         blocks.append(
             '<div class="premio-obra-celula premio-obra-celula--autor">'
             f'<span class="premio-obra-rotulo">Autor</span>'
-            f'<img class="premio-obra-autor" src="{src}" alt="" width="96" height="128" loading="lazy">'
+            f'<img class="premio-obra-autor" src="{src}" alt="{alt_autor}" '
+            f'width="168" height="224" loading="lazy" decoding="async">'
             "</div>"
         )
     if not blocks:
@@ -427,9 +431,15 @@ def inject_premio_obras(html_body: str, premio_slug: str, img_prefix: str) -> st
         if not obra_id:
             return h3
         figure = premio_obra_figure(
-            obra_id, premio_slug, img_prefix, credits.get(obra_id, "")
+            obra_id,
+            premio_slug,
+            img_prefix,
+            credits.get(obra_id, ""),
+            author_name=name,
         )
-        return h3 + "\n" + figure if figure else h3
+        if figure:
+            return f'<section class="premio-entrada">\n{h3}\n{figure}</section>\n'
+        return h3
 
     return H3_OBRA.sub(repl, html_body)
 
