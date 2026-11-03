@@ -1,17 +1,17 @@
 ---
 title: "Prix Goncourt 2026"
 eyebrow: "Prêmios · França"
-deck: "O prêmio mais cobiçado da literatura francesa tem hoje uma primeira seleção de 15 romances, depois que a Académie Goncourt excluiu um título por suspeita de uso de inteligência artificial. A segunda lista sai em 6 de outubro."
+deck: "Quatro romances disputam o Goncourt 2026 após a exclusão de Thélyson Orélien por suspeita de IA. O lauréat será proclamado em 3 de novembro no Drouant."
 byline: "Redação"
-date: 2026-10-05
+date: 2026-11-02
 kicker: "França · Prix Goncourt"
-resumo: "Primeira seleção com 15 romances, após a exclusão de um livro suspeito de ter sido escrito com IA."
+resumo: "Finalistas: Haenel, Jaenada, Mélois e Prudhomme; Godard, Devillers e Rolin ficaram de fora na última seleção."
 nav: premios
 equipe: Europa
 pais: "França"
 premio: "Prix Goncourt"
-situacao: "1ª seleção anunciada em 02/09 (15 títulos após exclusão em 25/09) · 2ª seleção em 06/10 · vencedor em 03/11"
-fonte: "https://actualitte.com/article/133615/prix-litteraires/16-romans-dans-la-premiere-selection-du-prix-goncourt"
+situacao: "4 finalistas em 27/10 · lauréat em 03/11 (Drouant)"
+fonte: "https://www.lemonde.fr/livres/article/2026/10/27/prix-goncourt-2026-les-quatre-romans-finalistes-devoiles-parmi-lesquels-ceux-de-philippe-jaenada-et-yannick-haenel_6801282_3260.html"
 ---
 
 O Goncourt é concedido pela Académie Goncourt, presidida desde maio de 2024 por Philippe Claudel, e rende ao vencedor um cheque simbólico de dez euros; o efeito está nas livrarias, e segundo dados da NielsenIQ divulgados pela Livres Hebdo o vencedor de 2025, *La maison vide*, de Laurent Mauvignier, passou de 630 mil exemplares. A primeira seleção de 2026, anunciada em 2 de setembro, tinha 16 romances, nove de homens e sete de mulheres. Em 25 de setembro a Académie retirou da lista *C'était ça ou mourir*, de Thélyson Orélien (Grasset), alegando plágios do autor e análises de pesquisadores e jornalistas segundo as quais o livro seria “muito provavelmente, em larga medida, o produto de uma inteligência artificial”; o comunicado diz que o prêmio existe para coroar “a literatura escrita por mulheres e homens”. Pelo calendário oficial, a lista cai para oito títulos em 6 de outubro e para quatro finalistas em 27 de outubro, e o vencedor é anunciado em 3 de novembro, no restaurante Drouant, em Paris. Entre as editoras, a Gallimard aparece com quatro títulos, ao lado de casas pequenas como a Maurice Nadeau.
@@ -107,3 +107,14 @@ Rolin parte de Troia rumo a Gaza, Sarajevo e Mariupol, convencido, como escreve,
 Maurice Nadeau, 2026.
 
 Livro de 140 páginas sobre o processo contra o editor Jean-Jacques Pauvert, acusado em 1956 por publicar o Marquês de Sade, com Georges Bataille como personagem principal e o advogado Maurice Garçon em cena. A L'Express admitiu que o título tinha escapado à crítica antes do anúncio e, depois de lê-lo, julgou-o interessante para a história literária, mas dispensável numa rentrée de boa safra. O caso interessa a quem estuda como uma lista de prêmio pode lançar um livro que a crítica ainda não tinha notado. [Fonte](https://www.lexpress.fr/culture/livre/prix-goncourt-2026-mais-que-vient-faire-le-galeriste-patrice-trigano-sur-la-liste-ENTVZW47XNCEHM2SAARY7WTWJY/)
+
+## Finalistas (27/10)
+
+A Académie Goncourt ressaltou em 27 de outubro quatro títulos, todos de casas do grupo Madrigall (Gallimard, Flammarion, Minuit, L'Arbalète/Gallimard). Philippe Claudel, presidente do júri, repetiu que a “máquina” não entra no prêmio, no rastro da retirada de *C'était ça ou mourir*, de Thélyson Orélien (Grasset), em 25 de setembro. Anne Godard (*Nous aussi*), Sonia Devillers (*Le fabuleux piano*) e Olivier Rolin (*La guerre éternelle*) — todos com boa recepção na rentrée — ficaram de fora nesta última etapa.
+
+- **Yannick Haenel**, *La solitude des professeurs est infinie* (Gallimard) — ver ficha acima.
+- **Philippe Jaenada**, *L'inconnue du Quai de Javel* (Flammarion) — ver ficha acima.
+- **Clémentine Mélois**, *Choses que je croyais perdues* (L'Arbalète/Gallimard) — ver ficha acima.
+- **Sylvain Prudhomme**, *De l'autre côté du lac* (Minuit) — ver ficha acima.
+
+O lauréat será anunciado em **3 de novembro** no restaurante Drouant, em Paris. [Fonte](https://www.franceinfo.fr/culture/livres/prix-litteraires/prix-goncourt-2026-philippe-claudel-revele-les-quatre-finalistes-et-deplore-l-absence-d-explication-de-thelyson-orelien_8255839.html)

@@ -1,17 +1,17 @@
 ---
 title: "Prêmio Oceanos 2026"
 eyebrow: "Prêmios · Língua portuguesa"
-deck: "Prêmio transnacional para livros escritos em português, o Oceanos anunciou no fim de agosto 26 semifinalistas de prosa, escolhidos entre 1.808 inscritos. Os cinco finalistas da categoria ainda não foram divulgados."
+deck: "Doze livros — seis de prosa e seis de poesia — disputam o Oceanos 2026 entre autores do Brasil, Portugal, Angola e Moçambique. Os vencedores saem em 11 de dezembro, no Itaú Cultural."
 byline: "Redação"
-date: 2026-10-05
+date: 2026-11-02
 kicker: "Língua portuguesa · Prêmio Oceanos"
-resumo: "26 semifinalistas de prosa de Brasil, Portugal, Moçambique e Angola; quatro deles também disputam o Jabuti."
+resumo: "Finalistas incluem Adélia Prado, José Eduardo Agualusa, Julia Codo e Micheliny Verunschk; 3.086 inscrições."
 nav: premios
 equipe: América do Sul
 pais: "Brasil e língua portuguesa"
 premio: "Prêmio Oceanos"
-situacao: "Semifinalistas de prosa anunciados · finalistas ainda não divulgados"
-fonte: "https://associacaooceanos.org/edicoes/2026/sobre"
+situacao: "12 finalistas (28/10) · vencedores em 11/12 (Itaú Cultural)"
+fonte: "https://www1.folha.uol.com.br/ilustrada/2026/10/adelia-prado-micheliny-verunschk-e-julia-codo-sao-finalistas-do-oceanos-2026.shtml"
 ---
 
 O Oceanos premia livros escritos em português e publicados em qualquer país; nasceu como Prêmio Portugal Telecom e ganhou o nome atual em 2015, quando o Itaú assumiu o financiamento, segundo a Associação Oceanos. A categoria de prosa reúne romance, conto, crônica e dramaturgia, e o júri que fez a primeira triagem de 2026 juntou críticos e escritores angolanos, brasileiros, moçambicanos, portugueses e um guineense. A edição recebeu 3.086 inscrições, 1.808 delas de prosa, e chegou a 26 semifinalistas na categoria: 12 autores brasileiros, 10 portugueses, 3 moçambicanos e 1 angolano, publicados por 15 selos. A Companhia das Letras responde por oito desses títulos (sete pelo braço brasileiro, um pelo português), e um júri intermediário deve escolher até 12 de outubro os cinco finalistas de cada categoria, segundo o [Estado de Minas](https://www.em.com.br/pensar/2026/08/7487460-veja-os-escritores-mineiros-semifinalistas-do-premio-oceanos.html). O Jabuti 2026, que divulgou seus semifinalistas em 29 de setembro, repete quatro destes títulos entre os dez de [Romance Literário](https://www.premiojabuti.com.br/jabuti/semifinalistas/): *Corsária*, *Dança de enganos*, *Meridiana* e *Uma delicada coleção de ausências*.
@@ -173,3 +173,31 @@ Romance de autor moçambicano, publicado pela Alcance Editores, segundo a lista 
 Companhia das Letras, 2025.
 
 Três mulheres, neta, avó e bisavó, dividem uma casa humilde de portão laranja em Belva. Laura vive com a avó Margarida, que lê mãos numa feira de antiguidades, até a chegada da bisavó Filipa, que perdeu o lugar onde morava. Segundo a Companhia das Letras, o romance retoma a maternidade e a infância de *O peso do pássaro morto* e *Pequena coreografia do adeus* e observa o trabalho de cuidado e as violências sofridas pelas mulheres. O livro também está entre os semifinalistas de Romance Literário do Jabuti 2026. [Fonte](https://www.companhiadasletras.com.br/livro/9788535941296/uma-delicada-colecao-de-ausencias)
+
+## Finalistas (28/10)
+
+A lista abaixo **substitui** a etapa de semifinalistas para fins de acompanhamento editorial: em 28 de outubro o prêmio anunciou **12 finalistas** (seis prosa, seis poesia), após 3.086 inscrições. Vencedores em **11 de dezembro**, no Itaú Cultural (São Paulo). Júris finais distintos por categoria.
+
+### Prosa
+
+| Obra | Autor(a) | Editora |
+|---|---|---|
+| *A chuva que lança a areia do Saara* | Ana Margarida de Carvalho (PT) | Companhia das Letras Portugal |
+| *Caderno de ossos* | Julia Codo (BR) | Companhia das Letras |
+| *Depois do trovão* | Micheliny Verunschk (BR) | Companhia das Letras |
+| *Não é ainda o pânico* | Rui Nunes (PT) | Relógio D'Água |
+| *O mel sem abelhas* | Judite Canha Fernandes (PT) | Gradiva |
+| *Tudo sobre Deus* | José Eduardo Agualusa (AO) | Tusquets / Quetzal |
+
+### Poesia
+
+| Obra | Autor(a) | Editora |
+|---|---|---|
+| *Antes de dar nomes ao mundo* | Adriana Lisboa (BR) | Relicário |
+| *Corpos da memória* | Helder Macedo (PT) | Caminho |
+| *Diáspora não é lar* | Nina Rizzi (BR) | Pallas |
+| *O jardim das oliveiras* | Adélia Prado (BR) | Record |
+| *Porte Étoile* | Edimilson de Almeida Pereira (BR) | Cobalto Livros |
+| *Tratado das coisas sensíveis* | Pedro Pereira Lopes (MZ) | INCM |
+
+[Fonte](https://oglobo.globo.com/cultura/livros/noticia/2026/10/28/adelia-prado-e-jose-eduardo-agualusa-concorrem-ao-premio-oceanos-confira-todos-os-finalistas.ghtml)

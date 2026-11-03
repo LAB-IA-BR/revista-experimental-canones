@@ -3,14 +3,14 @@ title: "Booker Prize 2026"
 eyebrow: "Prêmios · Reino Unido"
 deck: "O prêmio britânico para o melhor romance em inglês publicado no Reino Unido ou na Irlanda está na reta final, com seis livros na shortlist. O vencedor será anunciado em 9 de novembro."
 byline: "Redação"
-date: 2026-10-05
+date: 2026-11-02
 kicker: "Reino Unido · Booker Prize"
 resumo: "Seis romances na shortlist, com dois ex-vencedores e uma única estreante."
 nav: premios
 equipe: Europa
 pais: "Reino Unido"
 premio: "Booker Prize"
-situacao: "Shortlist anunciada em 22/09 · vencedor em 09/11"
+situacao: "Shortlist em 22/09 · vencedor em 09/11 (Old Billingsgate)"
 fonte: "https://www.theguardian.com/books/2026/sep/22/booker-prize-shortlist-pulitzer-previous-winners"
 ---
 

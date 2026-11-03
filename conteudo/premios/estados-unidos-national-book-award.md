@@ -1,20 +1,30 @@
 ---
 title: "National Book Award 2026: ficção"
 eyebrow: "Prêmios · Estados Unidos"
-deck: "O principal prêmio literário americano divulgou em 17 de setembro a longlist de ficção, com dez livros escolhidos entre 451 inscritos. Os finalistas saem em 6 de outubro e o vencedor, em 18 de novembro."
+deck: "Cinco romances disputam o National Book Award de ficção 2026. O vencedor será anunciado em 18 de novembro, na 77ª cerimônia em Nova York."
 byline: "Redação"
-date: 2026-10-05
+date: 2026-11-02
 kicker: "Estados Unidos · National Book Award"
-resumo: "Dez livros na longlist de ficção, entre eles dois de contos, e uma lista que virou alvo de um colunista do New York Times."
+resumo: "Finalistas: Assadi, Danticat, Delgado Lopera, Luiselli e Thomas; Danticat é finalista pela terceira vez."
 nav: premios
 equipe: América do Norte
 pais: "Estados Unidos"
 premio: "National Book Award"
-situacao: "Longlist anunciada em 17/09 · finalistas em 06/10 · vencedor em 18/11"
-fonte: "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-fiction/"
+situacao: "5 finalistas de ficção em 06/10 · vencedor em 18/11"
+fonte: "https://www.nationalbook.org/2026-national-book-award-finalists-announced/"
 ---
 
-Criado em 1936 pela American Booksellers Association, interrompido durante a Segunda Guerra e retomado em 1950, o National Book Award é hoje conferido pela National Book Foundation a livros de autores americanos publicados nos Estados Unidos, em cinco categorias; desde 2013 cada categoria tem uma longlist de dez títulos. Em ficção, o júri formado por Matt Bell, Caro De Robertis (presidente), Danielle King, Akhil Sharma e Diane Wilson escolheu os dez entre 451 livros inscritos pelas editoras, e o vencedor recebe 10 mil dólares e uma escultura de bronze, contra mil dólares para cada finalista, segundo o Book Riot. O site contou duas estreias na lista e seis autores já distinguidos pela fundação, e a lista inclui dois livros de contos, de Kimberly Blaeser e Louise Erdrich. Em 22 de setembro, o colunista Bret Stephens publicou no New York Times o artigo "The Literary World's D.E.I. Checklist", em que atribui à orientação política dos jurados a diversidade dos premiados da última década; a Electric Literature respondeu dois dias depois com uma lista anotada de resenhas dos livros atacados. Os finalistas serão anunciados em 6 de outubro e o vencedor, na 77ª cerimônia, em 18 de novembro.
+Criado em 1936 pela American Booksellers Association, interrompido durante a Segunda Guerra e retomado em 1950, o National Book Award é hoje conferido pela National Book Foundation a livros de autores americanos publicados nos Estados Unidos, em cinco categorias; desde 2013 cada categoria tem uma longlist de dez títulos. Em ficção, o júri formado por Matt Bell, Caro De Robertis (presidente), Danielle King, Akhil Sharma e Diane Wilson escolheu os dez entre 451 livros inscritos pelas editoras, e o vencedor recebe 10 mil dólares e uma escultura de bronze, contra mil dólares para cada finalista, segundo o Book Riot. O site contou duas estreias na lista e seis autores já distinguidos pela fundação, e a lista inclui dois livros de contos, de Kimberly Blaeser e Louise Erdrich. Em 22 de setembro, o colunista Bret Stephens publicou no New York Times o artigo "The Literary World's D.E.I. Checklist", em que atribui à orientação política dos jurados a diversidade dos premiados da última década; a Electric Literature respondeu dois dias depois com uma lista anotada de resenhas dos livros atacados. Em **6 de outubro**, o júri reduziu a ficção a cinco finalistas (abaixo); o vencedor sai em **18 de novembro**, com leitura pública dos finalistas em 17/11 no NYU Skirball.
+
+## Finalistas de ficção (06/10)
+
+- **Hannah Lillith Assadi**, *Paradiso 17* (Knopf) — ver ficha na longlist.
+- **Edwidge Danticat**, *Dèy* (Knopf) — terceira indicação ao prêmio; ver ficha na longlist.
+- **Julián Delgado Lopera**, *Pretend You're Dead and I Carry You* (Liveright) — ver ficha na longlist.
+- **Valeria Luiselli**, *Beginning Middle End* (Knopf) — ver ficha na longlist.
+- **Morgan Thomas**, *Mad Eden* (MCD) — estreia em romance; ver ficha na longlist.
+
+[Fonte](https://www.nationalbook.org/2026-national-book-award-finalists-announced/)
 
 ## Longlist de ficção
 
