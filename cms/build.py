@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 import sys
 from datetime import date
@@ -161,6 +162,28 @@ EQUIPES = (
 
 MD = markdown.Markdown(extensions=["extra", "sane_lists", "smarty"])
 
+PREMIO_OBRA_AUTHORS: dict[str, dict[str, str]] = {
+    "franca-prix-goncourt": {
+        "Boris Bergmann": "bergmann",
+        "Louise Chennevière": "chenneviere",
+        "Ananda Devi": "devi",
+        "Sonia Devillers": "devillers",
+        "Anne Godard": "godard",
+        "Olivier Grondeau": "grondeau",
+        "Yannick Haenel": "haenel",
+        "Lilia Hassaine": "hassaine",
+        "Philippe Jaenada": "jaenada",
+        "Jean-Yves Jouannais": "jouannais",
+        "Emma Marsantes": "marsantes",
+        "Clémentine Mélois": "melois",
+        "Sylvain Prudhomme": "prudhomme",
+        "Olivier Rolin": "rolin",
+        "Patrice Trigano": "trigano",
+    },
+}
+
+H3_OBRA = re.compile(r"<h3>([^<]+), <em>[^<]+</em></h3>")
+
 
 def site_dir() -> Path:
     if (ROOT / "site" / "conteudo").is_dir():
@@ -301,6 +324,70 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
 """
 
 
+def premio_obra_catalog(premio_slug: str) -> dict[str, str]:
+    path = CMS_DIR / "data" / f"{premio_slug}-obras.json"
+    if not path.is_file():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    credits: dict[str, str] = {}
+    for obra in data.get("obras") or []:
+        oid = str(obra.get("id") or "").strip()
+        if oid:
+            credits[oid] = str(obra.get("capa_credit") or "").strip()
+    return credits
+
+
+def premio_obra_figure(
+    obra_id: str,
+    premio_slug: str,
+    img_prefix: str,
+    credit: str = "",
+) -> str:
+    folder = ROOT / "img" / "premios" / premio_slug
+    autor = folder / f"{obra_id}-autor.jpg"
+    capa = folder / f"{obra_id}-capa.jpg"
+    imgs: list[str] = []
+    if autor.is_file():
+        src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-autor.jpg", quote=True)
+        imgs.append(
+            f'<img class="premio-obra-autor" src="{src}" alt="" width="240" height="320" loading="lazy">'
+        )
+    if capa.is_file():
+        src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-capa.jpg", quote=True)
+        imgs.append(
+            f'<img class="premio-obra-capa" src="{src}" alt="" width="240" height="360" loading="lazy">'
+        )
+    if not imgs:
+        return ""
+    single = " premio-obra--single" if len(imgs) == 1 else ""
+    legenda = (
+        f'\n  <figcaption class="premio-obra-legenda">{html.escape(credit)}</figcaption>'
+        if credit
+        else ""
+    )
+    return f'<figure class="premio-obra{single}">\n  {"".join(imgs)}{legenda}\n</figure>\n'
+
+
+def inject_premio_obras(html_body: str, premio_slug: str, img_prefix: str) -> str:
+    authors = PREMIO_OBRA_AUTHORS.get(premio_slug)
+    if not authors:
+        return html_body
+    credits = premio_obra_catalog(premio_slug)
+
+    def repl(match: re.Match[str]) -> str:
+        h3 = match.group(0)
+        name = match.group(1).strip()
+        obra_id = authors.get(name)
+        if not obra_id:
+            return h3
+        figure = premio_obra_figure(
+            obra_id, premio_slug, img_prefix, credits.get(obra_id, "")
+        )
+        return h3 + "\n" + figure if figure else h3
+
+    return H3_OBRA.sub(repl, html_body)
+
+
 def render_markdown(body: str) -> str:
     stripped = body.strip()
     if not stripped:
@@ -398,7 +485,10 @@ def piece_html(entry: dict[str, Any], prefix: str) -> str:
     eyebrow = str(entry.get("eyebrow") or "")
     deck = str(entry.get("deck") or "")
     byline = str(entry.get("byline") or "")
-    body_html = inject_video(render_markdown(entry["_body"]), entry)
+    body_html = render_markdown(entry["_body"])
+    if str(entry.get("nav") or "") == "premios":
+        body_html = inject_premio_obras(body_html, entry["_slug"], prefix)
+    body_html = inject_video(body_html, entry)
     situacao = str(entry.get("situacao") or "")
     fonte = str(entry.get("fonte") or "")
     ficha = ""

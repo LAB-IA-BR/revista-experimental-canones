@@ -1,0 +1,82 @@
+{
+  "premio": "franca-prix-goncourt",
+  "obras": [
+    {
+      "id": "bergmann",
+      "cover_url": "https://www.albin-michel.fr/sites/default/files/couvertures/9782226511874-j.jpg",
+      "wiki": "Boris_Bergmann_(écrivain)",
+      "autor_url": "https://images.ctfassets.net/iatfclnjf6rx/5ktvo4A3V6d0f0U8Ugvark/751e36f7b9c98a0a8708311fc7f0d056/boris_bergman2-cpascal-ito-1.jpg"
+    },
+    {
+      "id": "chenneviere",
+      "cover_url": "https://img.rts.ch/articles/2026/image/10988a26-29338569.image?w=800&h=800",
+      "wiki": "Louise_Chennevière"
+    },
+    {
+      "id": "devi",
+      "cover_url": "https://actualitte.com/uploads/images/chronique-d-un-royaume-perdu-d-ananda-devi-6a58907ab7d33791237382.jpg",
+      "wiki": "Ananda_Devi",
+      "autor_url": "https://pictures.laprovence.com/cdn-cgi/image/width=800,quality=80,format=auto,/media/melody/2026/09/29/ananda-devi-1790689563_a625b2c5b0ba6ca25b2c5b0babe25bv_.jpg"
+    },
+    {
+      "id": "devillers",
+      "cover_url": "https://actualitte.com/uploads/images/le-fabuleux-piano-sonia-devillers-fait-parler-un-erard-disparu-6a58907ab7d33791237381.jpg",
+      "wiki": "Sonia_Devillers"
+    },
+    {
+      "id": "godard",
+      "cover_url": "https://www.lalibre.be/resizer/v2/BESUI7EGEZCMNOIBIGVKT3ZVXM.jpg?auth=9a7fb2e1eb457a8bfec394e8a24437737413024ec3a1382a9621bd9335b76b21&width=800&height=1200&quality=85&focal=1417%2C900",
+      "wiki": "Anne_Godard"
+    },
+    {
+      "id": "grondeau",
+      "cover_url": "https://actualitte.com/uploads/images/en-iran-72-jours-de-garde-a-vue-deviennent-un-monument-litteraire-6a54eb23d3fa7992336870.webp",
+      "wiki": "Olivier_Grondeau"
+    },
+    {
+      "id": "haenel",
+      "cover_url": "https://www.franceinfo.fr/pictures/o-b7fg0PStcsZnV6o6_tIEmrVYE/0x0:3649x2052/800x450/2026/06/23/6a3abcba5145a326861946.jpg",
+      "wiki": "Yannick_Haenel"
+    },
+    {
+      "id": "hassaine",
+      "cover_url": "https://s.rfi.fr/media/display/32204b84-b1de-11f1-a622-991cccd3bb73/w:800/p:2x3/q:85/images/32204b84-b1de-11f1-a622-991cccd3bb73.jpg",
+      "wiki": "Lilia_Hassaine"
+    },
+    {
+      "id": "jaenada",
+      "cover_url": "https://www.franceinfo.fr/pictures/ODKLLFjBnGITwSO_OSMX6cx1on0/0x0:3277x1843/800x450/2026/08/14/6a7f3284c7736599619390.jpg",
+      "wiki": "Philippe_Jaenada"
+    },
+    {
+      "id": "jouannais",
+      "cover_url": "https://www.albin-michel.fr/sites/default/files/couvertures/9782226478930-j.jpg",
+      "wiki": "Jean-Yves_Jouannais"
+    },
+    {
+      "id": "marsantes",
+      "cover_url": "https://cult.news/app/uploads/2026/08/Marsantes-e1787745720637.jpeg",
+      "wiki": "Emma_Marsantes"
+    },
+    {
+      "id": "melois",
+      "cover_url": "https://www.franceinfo.fr/pictures/jSGyHODnDg60YhF00G7UYljmTIo/0x323:3897x2515/800x520/2026/08/06/6a74a213d2ebb878544036.jpg",
+      "wiki": "Clémentine_Mélois"
+    },
+    {
+      "id": "prudhomme",
+      "cover_url": "https://www.franceinfo.fr/pictures/e-NW22vcwAmdeF9OxcX2muOAHzQ/0x122:667x497/800x596/2026/08/25/6a8d51a4b5dbb071328964.jpg",
+      "wiki": "Sylvain_Prudhomme"
+    },
+    {
+      "id": "rolin",
+      "cover_url": "https://www.franceinfo.fr/pictures/x0WLgTM2KTgtgvjg-JQ4iIrZaaY/0x25:644x388/800x450/2026/08/03/6a70818a40f38541558018.jpg",
+      "wiki": "Olivier_Rolin"
+    },
+    {
+      "id": "trigano",
+      "cover_url": "https://www.lexpress.fr/resizer/v2/LSWZDM7MXBBODGWCQPZTMVLZMI.jpg?auth=ea8f33166a3e6ebc16fd5712cf11954040274d1e094b1fdddff59db1568ba860&width=800&height=1200&quality=85&focal=1087%2C267",
+      "wiki": "Patrice_Trigano"
+    }
+  ]
+}
