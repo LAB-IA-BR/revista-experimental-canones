@@ -1044,6 +1044,28 @@ nav.sections.is-stuck {
   margin: 2.2rem 0 0.75rem;
 }
 
+.prose h3 {
+  font-family: var(--display);
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  line-height: 1.22;
+  font-weight: 600;
+  margin: 0;
+  color: var(--ink);
+}
+
+.prose h3 em {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.prose .premio-entrada {
+  margin: 2.4rem 0 0;
+}
+
+.prose h2 + .premio-entrada {
+  margin-top: 1.35rem;
+}
+
 .piece-head {
   padding: 2.2rem 0 0.6rem;
   max-width: 40.5rem;
@@ -1096,37 +1118,47 @@ nav.sections.is-stuck {
 }
 
 .prose figure.premio-obra {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 0.75rem 1.25rem;
-  margin: 0.35rem 0 1.15rem;
-  max-width: 22rem;
+  display: grid;
+  grid-template-columns: minmax(10rem, 13rem) minmax(5.75rem, 7.25rem);
+  gap: 0.75rem 1.5rem;
+  align-items: end;
+  margin: 0.85rem 0 0;
+  padding: 1.15rem 1.25rem 1.05rem;
+  max-width: none;
+  width: 100%;
+  background: var(--paper-deep);
+  border: 1px solid var(--hair);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--ink) 6%, transparent);
+}
+
+.prose figure.premio-obra--so-capa {
+  grid-template-columns: minmax(10.5rem, 14rem);
+  justify-content: start;
 }
 
 .prose .premio-obra-celula {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
-  align-items: flex-start;
+  gap: 0.35rem;
+  align-items: stretch;
+  min-width: 0;
 }
 
 .prose .premio-obra-celula--capa {
-  flex: 1 1 7.5rem;
-  min-width: 6.5rem;
-  max-width: 9.5rem;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .prose .premio-obra-celula--autor {
-  flex: 0 0 4.75rem;
-  max-width: 5.25rem;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .prose .premio-obra-rotulo {
   font-family: var(--sans);
-  font-size: 0.62rem;
+  font-size: 0.64rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -1138,7 +1170,7 @@ nav.sections.is-stuck {
   object-fit: cover;
   object-position: top center;
   border: 1px solid var(--hair);
-  background: var(--paper-deep);
+  background: var(--paper);
 }
 
 .prose .premio-obra-capa {
@@ -1147,16 +1179,47 @@ nav.sections.is-stuck {
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border: 1px solid var(--hair);
-  background: var(--paper-deep);
+  background: var(--paper);
+  box-shadow: 0 3px 14px color-mix(in srgb, var(--ink) 12%, transparent);
 }
 
 .prose .premio-obra-legenda {
-  flex: 1 1 100%;
-  margin: 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 0.35rem 0 0;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--hair);
   font-family: var(--sans);
-  font-size: 0.68rem;
-  line-height: 1.35;
+  font-size: 0.72rem;
+  line-height: 1.4;
   color: var(--muted);
+}
+
+.prose figure.premio-obra--so-capa .premio-obra-legenda {
+  margin-top: 0.15rem;
+  padding-top: 0.55rem;
+}
+
+.prose .premio-entrada + p {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0.55rem 0 0.95rem;
+}
+
+@media (max-width: 520px) {
+  .prose figure.premio-obra {
+    grid-template-columns: 1.35fr 1fr;
+    padding: 1rem;
+    gap: 0.65rem 1rem;
+  }
+
+  .prose figure.premio-obra--so-capa {
+    grid-template-columns: minmax(0, 11.5rem);
+  }
 }
 
 .note-row time {
