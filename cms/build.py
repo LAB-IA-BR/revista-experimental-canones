@@ -337,6 +337,41 @@ def premio_obra_catalog(premio_slug: str) -> dict[str, str]:
     return credits
 
 
+def _premio_image_portrait(path: Path) -> bool:
+    if not path.is_file():
+        return False
+    try:
+        from PIL import Image
+    except ImportError:
+        return True
+    try:
+        with Image.open(path) as im:
+            w, h = im.size
+    except OSError:
+        return False
+    if min(w, h) < 120:
+        return False
+    return max(w, h) / min(w, h) <= 2.8
+
+
+def _premio_cover_ok(path: Path) -> bool:
+    if not path.is_file():
+        return False
+    try:
+        from PIL import Image
+    except ImportError:
+        return True
+    try:
+        with Image.open(path) as im:
+            w, h = im.size
+    except OSError:
+        return False
+    if w >= h:
+        return False
+    ratio = h / w
+    return 1.12 <= ratio <= 2.1 and w >= 180
+
+
 def premio_obra_figure(
     obra_id: str,
     premio_slug: str,
@@ -346,26 +381,37 @@ def premio_obra_figure(
     folder = ROOT / "img" / "premios" / premio_slug
     autor = folder / f"{obra_id}-autor.jpg"
     capa = folder / f"{obra_id}-capa.jpg"
-    imgs: list[str] = []
-    if autor.is_file():
-        src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-autor.jpg", quote=True)
-        imgs.append(
-            f'<img class="premio-obra-autor" src="{src}" alt="" width="240" height="320" loading="lazy">'
-        )
-    if capa.is_file():
+    blocks: list[str] = []
+    if _premio_cover_ok(capa):
         src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-capa.jpg", quote=True)
-        imgs.append(
-            f'<img class="premio-obra-capa" src="{src}" alt="" width="240" height="360" loading="lazy">'
+        blocks.append(
+            '<div class="premio-obra-celula premio-obra-celula--capa">'
+            f'<span class="premio-obra-rotulo">Capa</span>'
+            f'<img class="premio-obra-capa" src="{src}" alt="" width="200" height="300" loading="lazy">'
+            "</div>"
         )
-    if not imgs:
+    if _premio_image_portrait(autor):
+        src = html.escape(f"{img_prefix}img/premios/{premio_slug}/{obra_id}-autor.jpg", quote=True)
+        blocks.append(
+            '<div class="premio-obra-celula premio-obra-celula--autor">'
+            f'<span class="premio-obra-rotulo">Autor</span>'
+            f'<img class="premio-obra-autor" src="{src}" alt="" width="96" height="128" loading="lazy">'
+            "</div>"
+        )
+    if not blocks:
         return ""
-    single = " premio-obra--single" if len(imgs) == 1 else ""
+    layout = " premio-obra--so-capa" if len(blocks) == 1 and "capa" in blocks[0] else ""
+    layout = " premio-obra--so-autor" if len(blocks) == 1 and "autor" in blocks[0] else layout
     legenda = (
         f'\n  <figcaption class="premio-obra-legenda">{html.escape(credit)}</figcaption>'
         if credit
         else ""
     )
-    return f'<figure class="premio-obra{single}">\n  {"".join(imgs)}{legenda}\n</figure>\n'
+    return (
+        f'<figure class="premio-obra{layout}">\n  '
+        + "\n  ".join(blocks)
+        + f"{legenda}\n</figure>\n"
+    )
 
 
 def inject_premio_obras(html_body: str, premio_slug: str, img_prefix: str) -> str:
