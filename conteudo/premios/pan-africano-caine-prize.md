@@ -1,22 +1,30 @@
 ---
 title: "Caine Prize for African Writing 2026"
 eyebrow: "Prêmios · Pan-africano"
-deck: "O principal prêmio internacional de conto africano voltou em 2026 com cinco finalistas de Quênia, Camarões, Nigéria, Egito e Zimbábue. O vencedor sai em outubro, numa cerimônia em Londres."
+deck: "Simbarashe Steyn Kundizeza (Zimbábue) venceu o Caine Prize 2026 com o conto *The Blue Fighter*, sobre paternidade, ambição e crise financeira."
 byline: "Redação"
-date: 2026-10-05
+date: 2026-11-02
 kicker: "Pan-africano · Caine Prize"
-resumo: "Cinco contos de cinco regiões da África disputam o Caine Prize; vencedor em outubro."
+resumo: "Vencedor anunciado em 06/10 em Londres; prêmio de £10.000."
 nav: premios
 equipe: África
 pais: "Pan-africano"
 premio: "Caine Prize for African Writing"
-situacao: "Shortlist anunciada no início de setembro · vencedor previsto para outubro, em Londres"
-fonte: "https://www.caineprize.com/shortlist"
+situacao: "Vencedor: Simbarashe Steyn Kundizeza (06/10)"
+fonte: "https://www.caineprize.com/2026-winner"
 ---
 
-O Caine Prize premia um conto de autor africano, do continente ou da diáspora, e foi entregue pela primeira vez em 2000, em Harare, com celebração em Oxford; hoje é administrado pela Africa 95. O vencedor recebe 10 mil libras e cada finalista, 500; quando o conto é traduzido, o valor é dividido com o tradutor. Em 2026 o júri, presidido pela jornalista Bola Mosuro e formado por Nana Ekua Brew-Hammond, Orsod Malik, Siphiwo Mahala e Sheila Atim, leu mais de 400 inscrições de 27 países, segundo a Brittle Paper. A Afrocritik notou que a lista volta depois de um ano de hiato, que cada conto representa uma das cinco regiões africanas e que o tema comum é a família. A Brittle Paper observou que a lista reúne editoras independentes, revistas literárias e casas recém-chegadas à ficção, e Ellah Wakatama, presidente do conselho do prêmio, disse que essas editoras partilham o empenho em tornar a literatura acessível e lida.
+O Caine Prize premia um conto de autor africano, do continente ou da diáspora, e foi entregue pela primeira vez em 2000, em Harare, com celebração em Oxford; hoje é administrado pela Africa 95. O vencedor recebe 10 mil libras e cada finalista, 500; quando o conto é traduzido, o valor é dividido com o tradutor. Em 2026 o júri, presidido pela jornalista Bola Mosuro, leu **407 inscrições** de 27 países. Em **6 de outubro**, numa cerimônia na October Gallery, Londres, o prêmio foi para **Simbarashe Steyn Kundizeza** (Zimbábue), pelo conto *The Blue Fighter* (*The Shallow Tales Review*, 2024/2025): Tinashe narra como a família entra em penúria depois que o pai abandona a profissão estável para viver de aquários ornamentais.
 
-## Finalistas
+## Vencedor (06/10)
+
+### Simbarashe Steyn Kundizeza, *The Blue Fighter*
+
+The Shallow Tales Review, 2024/2025.
+
+Kundizeza, baseado em Harare, descreve o conto como tirado de experiências próximas; o júri leu a shortlist de cinco autores antes de proclamá-lo vencedor. [Fonte](https://www.caineprize.com/2026-winner)
+
+## Shortlist (setembro)
 
 ### Gladwell Pamba, *The Last Shop*
 
