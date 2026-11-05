@@ -1,7 +1,7 @@
 ---
 title: "Prix Goncourt 2026"
 eyebrow: "Prêmios · França"
-deck: "Philippe Jaenada venceu o 124º Goncourt com *L'inconnue du Quai de Javel* (6 votos a 3 sobre Sylvain Prudhomme). A ficha começa pela arqueologia do prêmio — máquina da República Mundial das Letras — e desce à rentrée 2026."
+deck: "Philippe Jaenada venceu o 124º Goncourt com *L'inconnue du Quai de Javel* (6 votos a 3 sobre Sylvain Prudhomme). A reportagem recupera a história do prêmio e cobre a rentrée 2026."
 byline: "Redação"
 date: 2026-11-05
 kicker: "França · Prix Goncourt"
@@ -13,8 +13,6 @@ premio: "Prix Goncourt"
 situacao: "Lauréat Jaenada · 03/11/2026 (Drouant) · 6×3 no 1º turno"
 fonte: "https://www.academiegoncourt.com/home"
 ---
-
-Esta página faz o que a disciplina pede ao monitorar prêmios: tratar um objeto contemporâneo (a rentrée 2026) como **entrada** para ver como se fabrica valor literário transnacional. O Goncourt não é só uma lista de romances; é um dispositivo histórico de consagração ligado a Paris, ao júri, à imprensa e ao mercado editorial francês — um caso didático da **República Mundial das Letras**, no sentido de Pascale Casanova (capital literária, tempo lagunar, traduções) e do **campo literário**, no de Pierre Bourdieu (capital simbólico, autonomia relativa, regras do jogo).
 
 ## Arqueologia do prêmio
 
@@ -31,8 +29,6 @@ Esta página faz o que a disciplina pede ao monitorar prêmios: tratar um objeto
 1. **Gatekeeping nacional:** listas progressivas (16 → 8 → 4), exclusão de Orélien por plágio e suspeita de IA — o júri define o que conta como “literatura escrita por mulheres e homens”.
 2. **Concentração editorial:** quatro finalistas de 2026 saíram do ecossistema **Madrigall** (Gallimard, Flammarion, Minuit, L’Arbalète) — o prêmio conversa com oligopólio, não só com estética.
 3. **Recepção crítica:** cada ficha abaixo cita imprensa que **traduz** o romance para comparações de cânone (*Cem anos de solidão*, Maigret, Homero) — sinal de como a obra entra na circulação global.
-
-**Para a turma.** Use esta seção como mapa; use a rentrée 2026 como **escavação**: o que o júri elevou, o que deixou de fora (Godard, Devillers, Rolin) e o que o lauréat muda no mercado são dados do mesmo mecanismo que Bourdieu e Casanova descrevem — aqui visíveis semana a semana.
 
 ## Édition 2026 — do calendário ao lauréat
 
