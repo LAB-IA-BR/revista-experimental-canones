@@ -1,22 +1,46 @@
 ---
 title: "Prix Goncourt 2026"
 eyebrow: "Prêmios · França"
-deck: "Quatro romances disputam o Goncourt 2026 após a exclusão de Thélyson Orélien por suspeita de IA. O lauréat será proclamado em 3 de novembro no Drouant."
+deck: "Philippe Jaenada venceu o 124º Goncourt com *L'inconnue du Quai de Javel* (6 votos a 3 sobre Sylvain Prudhomme). A ficha começa pela arqueologia do prêmio — máquina da República Mundial das Letras — e desce à rentrée 2026."
 byline: "Redação"
-date: 2026-11-02
+date: 2026-11-05
 kicker: "França · Prix Goncourt"
-resumo: "Finalistas: Haenel, Jaenada, Mélois e Prudhomme; Godard, Devillers e Rolin ficaram de fora na última seleção."
+resumo: "Lauréat: Jaenada (Flammarion). Arqueologia institucional + cobertura da lista de 16 títulos e quatro finalistas."
 nav: premios
 equipe: Europa
 pais: "França"
 premio: "Prix Goncourt"
-situacao: "4 finalistas em 27/10 · lauréat em 03/11 (Drouant)"
-fonte: "https://www.lemonde.fr/livres/article/2026/10/27/prix-goncourt-2026-les-quatre-romans-finalistes-devoiles-parmi-lesquels-ceux-de-philippe-jaenada-et-yannick-haenel_6801282_3260.html"
+situacao: "Lauréat Jaenada · 03/11/2026 (Drouant) · 6×3 no 1º turno"
+fonte: "https://www.academiegoncourt.com/home"
 ---
 
-O Goncourt é concedido pela Académie Goncourt, presidida desde maio de 2024 por Philippe Claudel, e rende ao vencedor um cheque simbólico de dez euros; o efeito está nas livrarias, e segundo dados da NielsenIQ divulgados pela Livres Hebdo o vencedor de 2025, *La maison vide*, de Laurent Mauvignier, passou de 630 mil exemplares. A primeira seleção de 2026, anunciada em 2 de setembro, tinha 16 romances, nove de homens e sete de mulheres. Em 25 de setembro a Académie retirou da lista *C'était ça ou mourir*, de Thélyson Orélien (Grasset), alegando plágios do autor e análises de pesquisadores e jornalistas segundo as quais o livro seria “muito provavelmente, em larga medida, o produto de uma inteligência artificial”; o comunicado diz que o prêmio existe para coroar “a literatura escrita por mulheres e homens”. Pelo calendário oficial, a lista cai para oito títulos em 6 de outubro e para quatro finalistas em 27 de outubro, e o vencedor é anunciado em 3 de novembro, no restaurante Drouant, em Paris. Entre as editoras, a Gallimard aparece com quatro títulos, ao lado de casas pequenas como a Maurice Nadeau.
+Esta página faz o que a disciplina pede ao monitorar prêmios: tratar um objeto contemporâneo (a rentrée 2026) como **entrada** para ver como se fabrica valor literário transnacional. O Goncourt não é só uma lista de romances; é um dispositivo histórico de consagração ligado a Paris, ao júri, à imprensa e ao mercado editorial francês — um caso didático da **República Mundial das Letras**, no sentido de Pascale Casanova (capital literária, tempo lagunar, traduções) e do **campo literário**, no de Pierre Bourdieu (capital simbólico, autonomia relativa, regras do jogo).
 
-## Primeira seleção
+## Arqueologia do prêmio
+
+**Origem e testamento.** O prêmio nasce em **1903**, quando os irmãos Edmond e Jules de Goncourt já estavam mortos, mas deixaram um testamento (1896) pedindo uma “Académie” de dez membros — escritores — para premiar anualmente “the best and most substantial imaginative work in prose” em francês. A primeira edição consagrou *Force ennemie*, de John-Antoine Nau. Desde então, o Goncourt funciona como **memória institucionalizada** de um projeto naturalista e documental do século XIX convertido em tribunal da ficção francesa.
+
+**Dez euros, um cheque simbólico.** O lauréat recebe cerca de **dez euros**; o dinheiro real circula nas livrarias. Bourdieu observou que prêmios deste tipo convertem julgamento estético em **efeito econômico tardio**: o rótulo “Goncourt” altera tiragens, reimpressões e traduções. A NielsenIQ citada pela imprensa francesa em 2025–2026 (centenas de milhares de exemplares para o vencedor anterior) mostra o mecanismo ainda ativo — não porque o júri “venda” livros, mas porque **sincroniza** crítica, mídia e distribuição num calendário (rentrée → listas → Drouant).
+
+**Drouant, meio-dia, ritual.** Desde **1914**, o anúncio ocorre no restaurante **Drouant**, no 2º arrondissement de Paris: júri à mesa, votação, comunicado à imprensa. O lugar não é cenário neutro; é parte do **ritual de consagração** — gastronomia, foto, metáfora de “república das letras” reunida em torno de uma mesa. Quem estuda cânone pode ler o Goncourt como **performance pública** do campo literário francês, no mesmo dia em que outros prêmios (Renaudot, Femina etc.) disputam atenção.
+
+**Académie Goncourt hoje.** O colégio eleitoral reúne dez académiciens (sucessores de Goncourt, Colette, Gracq, Michel Tournier, entre outros lugares na história do prêmio). Desde maio de 2024 a presidência está com **Philippe Claudel**. O site oficial publica calendário, comunicados e atas — fonte primária para arqueologia do dispositivo, não só para a edição corrente. [Fonte](https://www.academiegoncourt.com/home)
+
+**República Mundial das Letras — o que observar.** Casanova descreve um espaço transnacional desigual: centros (Paris, Londres, Nova York…) impõem ritmo e critérios; autores periféricos chegam tarde ou entram traduzidos. O Goncourt 2026 ilustra três camadas:
+
+1. **Gatekeeping nacional:** listas progressivas (16 → 8 → 4), exclusão de Orélien por plágio e suspeita de IA — o júri define o que conta como “literatura escrita por mulheres e homens”.
+2. **Concentração editorial:** quatro finalistas de 2026 saíram do ecossistema **Madrigall** (Gallimard, Flammarion, Minuit, L’Arbalète) — o prêmio conversa com oligopólio, não só com estética.
+3. **Recepção crítica:** cada ficha abaixo cita imprensa que **traduz** o romance para comparações de cânone (*Cem anos de solidão*, Maigret, Homero) — sinal de como a obra entra na circulação global.
+
+**Para a turma.** Use esta seção como mapa; use a rentrée 2026 como **escavação**: o que o júri elevou, o que deixou de fora (Godard, Devillers, Rolin) e o que o lauréat muda no mercado são dados do mesmo mecanismo que Bourdieu e Casanova descrevem — aqui visíveis semana a semana.
+
+## Édition 2026 — do calendário ao lauréat
+
+A Académie Goncourt presidida por Philippe Claudel conduziu a **124ª** edição. A primeira seleção, em 2 de setembro, listou **16 romances** (nove de homens, sete de mulheres). Em **25 de setembro** retirou *C'était ça ou mourir*, de Thélyson Orélien (Grasset), citando plágio e relatos segundo os quais o livro seria “muito provavelmente, em larga medida, o produto de uma inteligência artificial”; o comunicado reafirmou que o prêmio coroa “a literatura escrita por mulheres e homens”. A lista passou a **oito** títulos em 6 de outubro e a **quatro finalistas** em 27 de outubro.
+
+Em **3 de novembro**, no Drouant, **Philippe Jaenada** venceu no **primeiro turno** com **seis votos** contra **três** de Sylvain Prudhomme (*De l'autre côté du lac*, Minuit). Claudel destacou que o romance torna visível uma vítima “invisibilizada” pela polícia de 1949. Jaenada sucede Laurent Mauvignier (*La maison vide*, 2025), cujo efeito comercial a imprensa francesa ainda mede em centenas de milhares de exemplares. [Fonte](https://www.franceinfo.fr/culture/livres/prix-litteraires/philippe-jaenada-laureat-du-prix-goncourt-2026-pour-l-inconnue-du-quai-de-javel_8265872.html)
+
+## Primeira seleção (16 títulos)
 
 ### Boris Bergmann, *Minotaure*
 
@@ -108,13 +132,15 @@ Maurice Nadeau, 2026.
 
 Livro de 140 páginas sobre o processo contra o editor Jean-Jacques Pauvert, acusado em 1956 por publicar o Marquês de Sade, com Georges Bataille como personagem principal e o advogado Maurice Garçon em cena. A L'Express admitiu que o título tinha escapado à crítica antes do anúncio e, depois de lê-lo, julgou-o interessante para a história literária, mas dispensável numa rentrée de boa safra. O caso interessa a quem estuda como uma lista de prêmio pode lançar um livro que a crítica ainda não tinha notado. [Fonte](https://www.lexpress.fr/culture/livre/prix-goncourt-2026-mais-que-vient-faire-le-galeriste-patrice-trigano-sur-la-liste-ENTVZW47XNCEHM2SAARY7WTWJY/)
 
-## Finalistas (27/10)
+## Finalistas e lauréat (27/10 → 03/11)
 
-A Académie Goncourt ressaltou em 27 de outubro quatro títulos, todos de casas do grupo Madrigall (Gallimard, Flammarion, Minuit, L'Arbalète/Gallimard). Philippe Claudel, presidente do júri, repetiu que a “máquina” não entra no prêmio, no rastro da retirada de *C'était ça ou mourir*, de Thélyson Orélien (Grasset), em 25 de setembro. Anne Godard (*Nous aussi*), Sonia Devillers (*Le fabuleux piano*) e Olivier Rolin (*La guerre éternelle*) — todos com boa recepção na rentrée — ficaram de fora nesta última etapa.
+Em 27 de outubro a Académie ressaltou quatro títulos, todos de casas do grupo **Madrigall** (Gallimard, Flammarion, Minuit, L’Arbalète/Gallimard). Claudel repetiu que a “máquina” não entra no prêmio após a exclusão de Orélien. Anne Godard (*Nous aussi*), Sonia Devillers (*Le fabuleux piano*) e Olivier Rolin (*La guerre éternelle*) — com boa recepção na rentrée — ficaram de fora.
 
-- **Yannick Haenel**, *La solitude des professeurs est infinie* (Gallimard) — ver ficha acima.
-- **Philippe Jaenada**, *L'inconnue du Quai de Javel* (Flammarion) — ver ficha acima.
-- **Clémentine Mélois**, *Choses que je croyais perdues* (L'Arbalète/Gallimard) — ver ficha acima.
-- **Sylvain Prudhomme**, *De l'autre côté du lac* (Minuit) — ver ficha acima.
+| Autor | Romance | Editora | Desfecho 03/11 |
+|-------|---------|---------|----------------|
+| **Philippe Jaenada** | *L'inconnue du Quai de Javel* | Flammarion | **Lauréat** (6 votos) |
+| Sylvain Prudhomme | *De l'autre côté du lac* | Minuit | 3 votos |
+| Yannick Haenel | *La solitude des professeurs est infinie* | Gallimard | — |
+| Clémentine Mélois | *Choses que je croyais perdues* | L'Arbalète/Gallimard | — |
 
-O lauréat será anunciado em **3 de novembro** no restaurante Drouant, em Paris. [Fonte](https://www.franceinfo.fr/culture/livres/prix-litteraires/prix-goncourt-2026-philippe-claudel-revele-les-quatre-finalistes-et-deplore-l-absence-d-explication-de-thelyson-orelien_8255839.html)
+Fichas completas acima. Anúncio oficial: [Académie Goncourt](https://www.academiegoncourt.com/home) · cobertura: [franceinfo](https://www.franceinfo.fr/culture/livres/prix-litteraires/philippe-jaenada-laureat-du-prix-goncourt-2026-pour-l-inconnue-du-quai-de-javel_8265872.html) · finalistas: [Le Monde, 27/10](https://www.lemonde.fr/livres/article/2026/10/27/prix-goncourt-2026-les-quatre-romans-finalistes-devoiles-parmi-lesquels-ceux-de-philippe-jaenada-et-yannick-haenel_6801282_3260.html)
