@@ -1038,10 +1038,16 @@ nav.sections.is-stuck {
 
 .prose h2 {
   font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.16em;
+  font-size: clamp(1.02rem, 2.4vw, 1.22rem);
+  font-weight: 700;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  margin: 2.2rem 0 0.75rem;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 3rem 0 1.15rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid var(--accent);
+  max-width: 40.5rem;
 }
 
 .prose h3 {
