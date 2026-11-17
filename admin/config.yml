@@ -11,12 +11,12 @@ backend:
 
 publish_mode: editorial_workflow
 
-site_url: https://lab-ia-br.github.io/revista-experimental-canones
-display_url: https://lab-ia-br.github.io/revista-experimental-canones
+site_url: https://revistadecritica.labiaes.com.br
+display_url: https://revistadecritica.labiaes.com.br
 locale: pt
 
 media_folder: img/uploads
-public_folder: /revista-experimental-canones/img/uploads
+public_folder: /img/uploads
 
 slug:
   encoding: ascii
