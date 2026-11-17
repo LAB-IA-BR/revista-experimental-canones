@@ -11,8 +11,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-site_url: https://revista.labiaes.com.br
-display_url: https://revista.labiaes.com.br
+site_url: https://revistadecritica.labiaes.com.br
+display_url: https://revistadecritica.labiaes.com.br
 locale: pt
 
 media_folder: img/uploads
