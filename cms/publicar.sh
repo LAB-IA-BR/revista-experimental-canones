@@ -48,4 +48,4 @@ MSG="${REVISTA_COMMIT_MSG:-feat(revista): atualiza o site publicado}"
 git -C "$PAGES" -c user.email="orlandolopes.es@gmail.com" -c user.name="Orlando Lopes" \
   commit -m "$MSG"
 git -C "$PAGES" push origin main
-echo "publicado: https://lab-ia-br.github.io/revista-experimental-canones/"
+echo "publicado: https://revista.labiaes.com.br/"
