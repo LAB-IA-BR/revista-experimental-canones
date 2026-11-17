@@ -811,6 +811,9 @@ def main() -> int:
         return 1
     n = build(site)
     print(f"ok {n} arquivos em {site}", file=sys.stderr)
+    from seo import aplicar as aplicar_seo  # cms/seo.py, ao lado deste arquivo
+
+    print(f"seo: {aplicar_seo(site)} páginas atualizadas", file=sys.stderr)
     return 0
 
 

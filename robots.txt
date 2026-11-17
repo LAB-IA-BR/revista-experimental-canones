@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cms/
+Disallow: /redacao/
+
+Sitemap: https://revistadecritica.labiaes.com.br/sitemap.xml
