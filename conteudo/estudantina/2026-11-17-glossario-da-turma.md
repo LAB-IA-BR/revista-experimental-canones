@@ -57,16 +57,20 @@ MILLER, Monica L. No indifferent appearance: how is Black dandyism integral to B
 
 *Amanda Santiago Moreira*
 
-A palavra “essência” (do substantivo feminino) tem sua origem no latim “essentia” (derivado do verbo “esse”) que foi introduzido por Cícero como tradução do grego “ousia”, usado por Aristóteles para designar a substância ou natureza das coisas. É aquilo que define a natureza profunda de uma pessoa, objeto ou ideia. Refere-se ao que é fundamental, ao núcleo que dá identidade e sentido a algo. Ela permanece mesmo quando tudo se transforma ou desaparece.  
+A palavra “essência” (do substantivo feminino) tem sua origem no latim “essentia” (derivado do verbo “esse”) que foi introduzido por Cícero como tradução do grego “ousia”, usado por Aristóteles para designar a substância ou natureza das coisas. É aquilo que define a natureza profunda de uma pessoa, objeto ou ideia. Refere-se ao que é fundamental, ao núcleo que dá identidade e sentido a algo. Ela permanece mesmo quando tudo se transforma ou desaparece.
+
 No entanto, a forma como o conceito é abordado causa divergências, onde alguns filósofos defendem que a essência precede a existência, outros argumentam o oposto.
 
 Para Aristóteles, por exemplo, a essência seria o conjunto de qualidades e atributos que caracterizam a natureza própria de um indivíduo concreto, independente das mudanças que possam ocorrer com ele no futuro. Já para Jean-Paul Sartre, que discute em sua obra ‘O Existencialismo é um Humanismo’, o ser humano surge no mundo e só depois constrói a sua identidade por meio de suas escolhas. Como sintetiza o autor: “O homem primeiramente existe, se descobre, surge no mundo; e só depois se define.”.
 
 Desse modo, enquanto para os objetos a essência é dada de antemão, para o ser humano ela se torna uma obra aberta, moldada ativamente ao longo da vida.
 
-Referências:   
-[https://www.significados.com.br/essencia/](https://www.significados.com.br/essencia/)  
-[https://escreva.ai/palavra/essencia/](https://escreva.ai/palavra/essencia/)  
+Referências:
+
+[https://www.significados.com.br/essencia/](https://www.significados.com.br/essencia/)
+
+[https://escreva.ai/palavra/essencia/](https://escreva.ai/palavra/essencia/)
+
 [https://www.ex-isto.com/2018/05/existencia-essencia.html?m=1](https://www.ex-isto.com/2018/05/existencia-essencia.html?m=1)
 
 ## Intertextualidade
@@ -89,7 +93,7 @@ DICIO. Intertextualidade. Disponível em: [https://www.dicio.com.br/intertextual
 
 **Liminaridade**
 
-**Classe gramatical:** substantivo feminino.  
+**Classe gramatical:** substantivo feminino.
 **Termo em inglês:** *liminality*.
 
 #### **2. Definição**
@@ -180,12 +184,12 @@ Um indivíduo bilíngue, por exemplo, pode utilizar diferentes recursos linguís
 
 A liminaridade pode ser relacionada a diversos conceitos acadêmicos:
 
-* **Transição:** passagem de uma condição para outra.  
-* **Identidade:** processo de construção e negociação de pertencimentos.  
-* **Hibridismo:** combinação ou interação entre diferentes elementos culturais.  
-* **Marginalidade:** posição situada fora ou à margem de estruturas sociais dominantes.  
-* **Rito de passagem:** prática social que marca mudanças de status.  
-* **Communitas:** conceito de Turner relacionado às relações sociais que podem surgir durante experiências liminares.  
+* **Transição:** passagem de uma condição para outra.
+* **Identidade:** processo de construção e negociação de pertencimentos.
+* **Hibridismo:** combinação ou interação entre diferentes elementos culturais.
+* **Marginalidade:** posição situada fora ou à margem de estruturas sociais dominantes.
+* **Rito de passagem:** prática social que marca mudanças de status.
+* **Communitas:** conceito de Turner relacionado às relações sociais que podem surgir durante experiências liminares.
 * **Alteridade:** construção da relação entre “eu” e “outro”.
 
 É importante destacar que liminaridade e marginalidade não são sinônimos. A liminaridade está principalmente relacionada a uma condição de passagem ou transição, enquanto a marginalidade pode indicar uma posição relativamente estável de afastamento ou exclusão em relação a determinado centro social.
@@ -236,8 +240,8 @@ No Brasil, a expressão *literatura marginal* está associada a diferentes movim
 
 Entre os nomes associados a esse movimento estão:
 
-* **Ana Cristina Cesar:** poeta cuja obra apresenta uma escrita intimista, fragmentada e marcada por reflexões sobre identidade e linguagem.  
-* **Cacaso:** poeta que explorou a linguagem cotidiana, a ironia e a crítica social.  
+* **Ana Cristina Cesar:** poeta cuja obra apresenta uma escrita intimista, fragmentada e marcada por reflexões sobre identidade e linguagem.
+* **Cacaso:** poeta que explorou a linguagem cotidiana, a ironia e a crítica social.
 * **Chacal:** poeta que experimentou formas de expressão próximas da oralidade e da cultura urbana.
 
 #### **Literatura marginal-periférica dos anos 1990 e 2000**
@@ -248,7 +252,7 @@ Esses autores passaram a utilizar a literatura para narrar suas próprias experi
 
 Um marco importante foi a publicação da edição especial *Literatura Marginal*, organizada pelo escritor Ferréz na revista *Caros Amigos*, em 2001.
 
-3. # ***PRINCIPAIS CARACTERÍSTICAS*** 
+3. # ***PRINCIPAIS CARACTERÍSTICAS***
 
 #### **1. Representação de grupos marginalizados**
 
@@ -266,7 +270,7 @@ Ela não é apresentada somente a partir da violência ou da pobreza, mas també
 
 Muitos autores utilizam expressões populares, gírias, marcas da oralidade e variedades linguísticas presentes em seus contextos sociais.
 
-4. ## **AUTORES E OBRAS IMPORTANTES** 
+4. ## **AUTORES E OBRAS IMPORTANTES**
 
 #### **Ferréz — Capão Pecado (2000)**
 
@@ -376,12 +380,12 @@ Dessa forma, a fotografia pode contribuir para documentar e valorizar manifesta�
 
 A memória cultural pode ser relacionada a diversos conceitos acadêmicos:
 
-- Memória coletiva: conjunto de lembranças compartilhadas por um grupo social.  
-- Identidade cultural: conjunto de referências e características que contribuem para o reconhecimento de um grupo.  
-- Tradição: transmissão de costumes, conhecimentos e práticas entre gerações.  
-- Patrimônio cultural: bens materiais e imateriais reconhecidos como importantes para a história e a identidade de uma sociedade.  
-- Memória social: lembranças e representações do passado construídas no contexto das relações sociais.  
-- Pertencimento: sentimento de identificação e vínculo com determinado grupo ou comunidade.  
+- Memória coletiva: conjunto de lembranças compartilhadas por um grupo social.
+- Identidade cultural: conjunto de referências e características que contribuem para o reconhecimento de um grupo.
+- Tradição: transmissão de costumes, conhecimentos e práticas entre gerações.
+- Patrimônio cultural: bens materiais e imateriais reconhecidos como importantes para a história e a identidade de uma sociedade.
+- Memória social: lembranças e representações do passado construídas no contexto das relações sociais.
+- Pertencimento: sentimento de identificação e vínculo com determinado grupo ou comunidade.
 - Representação cultural: maneira pela qual elementos de uma cultura são apresentados e interpretados por meio de diferentes linguagens.
 
 **Exemplo de aplicação em uma análise acadêmica**
@@ -412,7 +416,7 @@ MORAES, Eneida de. Aruanda; Banho de cheiro. Obra consultada para a pesquisa sob
 
 *Ana Clara Daher Carneiro Ferraz*
 
-(se-ren-di-pi-da-de) 
+(se-ren-di-pi-da-de)
 
 A palavra serendipidade designa a capacidade de realizar descobertas felizes, úteis ou significativas por acaso, bem como o acontecimento favorável que ocorre de maneira inesperada. Segundo o Dicio, o termo refere-se ao ato ou à capacidade de descobrir coisas boas sem previsão, podendo também indicar uma circunstância interessante ou agradável que acontece imprevistamente.. De maneira semelhante, a Infopédia apresenta duas acepções para o vocábulo: a aptidão para atrair acontecimentos favoráveis de forma fortuita e o próprio acontecimento que resulta em uma descoberta acidental ou em um acaso feliz (PORTO EDITORA). Já o Dicionário Brasileiro da Língua Portuguesa, da Michaelis, sintetiza o significado da palavra como o dom de atrair sorte e a própria sorte atraída (MICHAELIS).
 
@@ -424,9 +428,9 @@ Sinônimos e termos relacionados: acaso feliz, casualidade, eventualidade, desco
 
 Exemplo de uso: Ao procurar uma referência bibliográfica para sua pesquisa, a estudante encontrou, por serendipidade, uma obra que transformou sua interpretação do tema.
 
-**Referências**  
+**Referências**
 DICIO. Serendipidade. Dicionário Online de Português, [s. d.].
 
-MICHAELIS. Serendipidade. In: Dicionário Brasileiro da Língua Portuguesa. São Paulo: Melhoramentos, [s. d.]. Disponível em: 
+MICHAELIS. Serendipidade. In: Dicionário Brasileiro da Língua Portuguesa. São Paulo: Melhoramentos, [s. d.]. Disponível em:
 
 PORTO EDITORA. Serendipidade. In: Dicionário Infopédia da Língua Portuguesa. Porto: Porto Editora, [s. d.].

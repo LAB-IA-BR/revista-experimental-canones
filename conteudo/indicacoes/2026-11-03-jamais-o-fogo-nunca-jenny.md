@@ -24,6 +24,6 @@ Se você procura uma experiência literária que vá além dos acontecimentos e 
 
 Referências
 
-CARNEIRO, Raquel. **Desilusão política e amorosa marca livro da chilena Diamela Eltit**. VEJA, 28 jul. 2017. Disponível em: VEJA – [https://veja.abril.com.br/coluna/meus-livros/desilusao-politica-e-amorosa-se-mesclam-em-livro-de-diamela-eltit/](https://veja.abril.com.br/coluna/meus-livros/desilusao-politica-e-amorosa-se-mesclam-em-livro-de-diamela-eltit/). Acesso em: 3 nov. 2026. 
+CARNEIRO, Raquel. **Desilusão política e amorosa marca livro da chilena Diamela Eltit**. VEJA, 28 jul. 2017. Disponível em: VEJA – [https://veja.abril.com.br/coluna/meus-livros/desilusao-politica-e-amorosa-se-mesclam-em-livro-de-diamela-eltit/](https://veja.abril.com.br/coluna/meus-livros/desilusao-politica-e-amorosa-se-mesclam-em-livro-de-diamela-eltit/). Acesso em: 3 nov. 2026.
 
 ELTIT, Diamela. **Jamais o fogo nunca**. Tradução de Julián Fuks. Belo Horizonte: Relicário Edições, 2017.

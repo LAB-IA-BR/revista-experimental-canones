@@ -28,7 +28,7 @@ Seu livro de estreia reúne onze contos sobre personagens negros que vivem no su
 
 As histórias exploram pertencimento, ancestralidade, relações familiares, memória histórica e a complexidade de chamar determinado lugar de lar.
 
-**Por que conhecer:** sua escrita demonstra como experiências individuais podem revelar questões históricas e sociais muito mais amplas. Foi reconhecida pelo programa 5 Under 35 da National Book Foundation em 2026. 
+**Por que conhecer:** sua escrita demonstra como experiências individuais podem revelar questões históricas e sociais muito mais amplas. Foi reconhecida pelo programa 5 Under 35 da National Book Foundation em 2026.
 
 ## **3 — Nana Kwame Adjei-Brenyah**
 
@@ -38,7 +38,7 @@ Um dos nomes mais interessantes da ficção especulativa contemporânea.
 
 O romance imagina uma sociedade em que pessoas encarceradas participam de um programa televisivo de entretenimento. A partir dessa premissa, o autor questiona o sistema prisional, a exploração humana e a transformação da violência em espetáculo.
 
-**Por que conhecer:** sua literatura utiliza a distopia como ferramenta de crítica social e política. 
+**Por que conhecer:** sua literatura utiliza a distopia como ferramenta de crítica social e política.
 
 ## **4 — Megan Kamalei Kakimoto**
 
@@ -48,7 +48,7 @@ Escritora de ascendência japonesa e havaiana nativa, Kakimoto trabalha com narr
 
 Sua literatura questiona a imagem idealizada do Havaí, explorando questões de colonização, identidade cultural e tradições locais.
 
-**Por que conhecer:** é uma autora interessante para quem gosta de literatura que mistura realismo, elementos fantásticos e crítica cultural. 
+**Por que conhecer:** é uma autora interessante para quem gosta de literatura que mistura realismo, elementos fantásticos e crítica cultural.
 
 ## **5 — Kaveh Akbar**
 
@@ -58,7 +58,7 @@ Poeta iraniano-americano, Akbar estreou na ficção com um romance que aborda id
 
 A narrativa acompanha Cyrus, um jovem que tenta compreender sua história familiar e encontrar algum sentido para sua própria vida.
 
-**Por que conhecer:** sua escrita poética e reflexiva oferece uma perspectiva interessante sobre identidade, espiritualidade e pertencimento cultural. 
+**Por que conhecer:** sua escrita poética e reflexiva oferece uma perspectiva interessante sobre identidade, espiritualidade e pertencimento cultural.
 
 **6 — Raven Leilani**
 
@@ -68,7 +68,7 @@ Leilani ganhou destaque com seu romance de estreia, que acompanha Edie, uma jove
 
 A narrativa aborda raça, intimidade, relações contemporâneas, insegurança artística e as contradições da vida adulta.
 
-**Por que conhecer:** sua escrita é provocativa, irônica e bastante interessada nas tensões da sociedade contemporânea. 
+**Por que conhecer:** sua escrita é provocativa, irônica e bastante interessada nas tensões da sociedade contemporânea.
 
 ## **7 — Brandon Taylor**
 

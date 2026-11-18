@@ -22,10 +22,10 @@ No romance "O Advogado do Diabo", publicado em 1959 pelo escritor australiano Mo
 
 **Referência:**
 
-The Devil's Advocate by Morris L. West | Goodreadshttps://[www.goodreads.com/book/show/56961.The_Devil_s_Advocate](http://www.goodreads.com/book/show/56961.The_Devil_s_Advocate) 
+The Devil's Advocate by Morris L. West | Goodreadshttps://[www.goodreads.com/book/show/56961.The_Devil_s_Advocate](http://www.goodreads.com/book/show/56961.The_Devil_s_Advocate)
 
-[https://www.skoob.com.br/pt/book/4746](https://www.skoob.com.br/pt/book/4746) 
+[https://www.skoob.com.br/pt/book/4746](https://www.skoob.com.br/pt/book/4746)
 
-[https://www1.folha.uol.com.br/folha/livrariadafolha/ult10082u638000.shtml](https://www1.folha.uol.com.br/folha/livrariadafolha/ult10082u638000.shtml) 
+[https://www1.folha.uol.com.br/folha/livrariadafolha/ult10082u638000.shtml](https://www1.folha.uol.com.br/folha/livrariadafolha/ult10082u638000.shtml)
 
 [https://www.blogletras.com/2011/05/o-advogado-do-diabo-de-morris-west.html?m=1](https://www.blogletras.com/2011/05/o-advogado-do-diabo-de-morris-west.html?m=1)

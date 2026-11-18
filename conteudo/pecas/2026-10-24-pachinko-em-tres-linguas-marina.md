@@ -24,7 +24,7 @@ O romance vive entre três idiomas. A narração está em inglês. Os personagen
 
 Para quem traduz, isso cria uma escolha delicada a cada página. Os estudos de tradução chamam essa escolha de duas formas:
 
-* **Estrangeirização:** manter as marcas da outra cultura — nomes, palavras, modos de tratamento — e deixar o leitor sentir que está num lugar estranho.  
+* **Estrangeirização:** manter as marcas da outra cultura — nomes, palavras, modos de tratamento — e deixar o leitor sentir que está num lugar estranho.
 * **Domesticação:** adaptar o texto ao leitor local, para que a leitura flua sem tropeços.
 
 Nenhuma das opções é neutra. Estrangeirizar demais pode afastar o leitor; domesticar demais pode apagar justamente o que o livro quer mostrar: a sensação de não pertencer. Num romance sobre identidade, a tradução não é um detalhe técnico. É parte da história.
@@ -53,7 +53,7 @@ Os casos da Coreia e do Japão mostram que essa escolha pode ser contestada, cor
 
 ## **Fontes**
 
-* [Resenha: Pachinko](https://www.poraoliterario.com/2020/11/resenha-pachinko.html), Porão Literário (ficha da edição brasileira: Intrínseca, 2020, 528 p., tradução de Marina Vargas).  
-* [Pachinko — edição Intrínseca](https://www.skoob.com.br/livro/11647619ED11686374), Skoob.  
-* [New translation of 'Pachinko' to go on sale in Korea this month](https://www.koreajoongangdaily.com/lifestyle/new-translation-of-pachinko-to-go-on-sale-in-korea-this-month/10336330), Korea JoongAng Daily.  
+* [Resenha: Pachinko](https://www.poraoliterario.com/2020/11/resenha-pachinko.html), Porão Literário (ficha da edição brasileira: Intrínseca, 2020, 528 p., tradução de Marina Vargas).
+* [Pachinko — edição Intrínseca](https://www.skoob.com.br/livro/11647619ED11686374), Skoob.
+* [New translation of 'Pachinko' to go on sale in Korea this month](https://www.koreajoongangdaily.com/lifestyle/new-translation-of-pachinko-to-go-on-sale-in-korea-this-month/10336330), Korea JoongAng Daily.
 * [An Analysis of English to Japanese Translation in the novel Pachinko](https://blogs.uoregon.edu/uoundergraduateresearchsymposium/tag/glynne-walley), Universidade de Oregon.

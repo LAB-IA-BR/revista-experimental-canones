@@ -9,9 +9,9 @@ resumo: "Ensaio curto e lista de leituras de horror queer."
 nav: "indicacoes"
 ---
 
-A literatura queer de horror possibilita questionar as estruturas sociais que definem quais identidades, corpos e formas de desejo são aceitáveis socialmente. Tradicionalmente, o horror associa a figura do monstro para aquilo que ameaça a ordem e paz estabelecida. 
+A literatura queer de horror possibilita questionar as estruturas sociais que definem quais identidades, corpos e formas de desejo são aceitáveis socialmente. Tradicionalmente, o horror associa a figura do monstro para aquilo que ameaça a ordem e paz estabelecida.
 
-Entretanto, a partir de uma perspectiva queer, essa lógica pode ser invertida: o verdadeiro horror não está necessariamente no monstruoso, mas na própria sociedade que marginaliza indivíduos que desafiam as normas de gênero e sexualidade. 
+Entretanto, a partir de uma perspectiva queer, essa lógica pode ser invertida: o verdadeiro horror não está necessariamente no monstruoso, mas na própria sociedade que marginaliza indivíduos que desafiam as normas de gênero e sexualidade.
 
 Nesse sentido, a heteronormatividade pode ser compreendida como um mecanismo estruturado que produz repressão, exclusão e violência contra identidades vistas como diferentes. Judith Butler, em *Problemas de Gênero* (1990), questiona a naturalização das normas de gênero e sexualidade, contribuindo para compreender como a aceitação social de determinados corpos e identidades contribuem para a marginalização de outras identidades.
 
@@ -31,13 +31,13 @@ Para explorar melhor a temática do Queer Horror, reunimos algumas obras que abo
 
 1. ## **Carmilla — Sheridan Le Fanu (1872)**     Uma vampira desenvolve uma relação íntima com Laura. Obra fundamental para analisar desejo feminino, lesbianidade, repressão sexual e monstruosidade.
 
-2. **Affinity — Sarah Waters (1999)**  
-    Uma narrativa gótica ambientada na Londres vitoriana, envolvendo espiritualismo, prisão e desejo entre mulheres.  
-3. **Wilder Girls — Rory Power (2019)**  
-    Uma escola feminina isolada é atingida por uma misteriosa doença. Explora corpos, amizade, desejo, isolamento e transformação  
-4. **Plain Bad Heroines — Emily M. Danforth (2020)**  
-    Mistura horror gótico, histórias de mulheres queer, maldições e uma escola marcada por acontecimentos misteriosos  
-5. **Our Wives Under the Sea — Julia Armfield (2022)**  
+2. **Affinity — Sarah Waters (1999)**
+    Uma narrativa gótica ambientada na Londres vitoriana, envolvendo espiritualismo, prisão e desejo entre mulheres.
+3. **Wilder Girls — Rory Power (2019)**
+    Uma escola feminina isolada é atingida por uma misteriosa doença. Explora corpos, amizade, desejo, isolamento e transformação
+4. **Plain Bad Heroines — Emily M. Danforth (2020)**
+    Mistura horror gótico, histórias de mulheres queer, maldições e uma escola marcada por acontecimentos misteriosos
+5. **Our Wives Under the Sea — Julia Armfield (2022)**
     Uma mulher retorna de uma expedição submarina transformada. Aborda relacionamento queer, estranhamento corporal, luto e identidade
 
 **Referência teórica:**

@@ -17,7 +17,7 @@ Ao olhar para a obra hoje com atenção, dialogando com as reflexões de Patríc
 
 Essa complexidade moral culmina em uma das cenas mais marcantes do livro: o momento em que Melchor Marín, ainda preso em Barcelona antes de se tornar policial, lê Os Miseráveis, de Victor Hugo, na cela. Ao enxergar no conflito entre o rigor implacável da lei encarnado pelo inspetor Javert e a possibilidade de redenção de Jean Valjean o espelho da sua própria trajetória, a cena ilumina toda a investigação na comarca catalã ao mostrar que, para Melchor, a leitura não é fuga, mas a lente ética pela qual ele passa a julgar o crime dos Adell e a decidir entre a justiça formal e a reparação moral.
 
-## **Indicações de Leitura** 
+## **Indicações de Leitura**
 
 Para quem gostou da história, mas busca outras obras que tratem de justiça, sentimentos, escolhas difíceis e o papel do amor de forma profunda e realista, destacam-se quatro recomendações:
 

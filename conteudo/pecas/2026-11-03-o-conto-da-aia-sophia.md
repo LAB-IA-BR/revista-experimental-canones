@@ -9,8 +9,6 @@ resumo: "Memória, linguagem e resistência em *O conto da aia*, de Margaret Atw
 nav: "critica"
 ---
 
-### **Quando contar a própria história se torna uma forma de resistência**
-
 Publicado em 1985, *O Conto da Aia*, de Margaret Atwood, continua sendo uma daquelas obras que parecem pertencer simultaneamente ao passado e ao presente. Ambientado na República de Gilead, um regime teocrático que transforma o controle dos corpos em política de Estado, o romance acompanha Offred, uma mulher que perdeu o direito de decidir sobre a própria vida e passou a existir principalmente em função de sua capacidade reprodutiva. No entanto, reduzir o livro a uma distopia sobre a opressão feminina seria ignorar justamente aquilo que o torna tão perturbador: Atwood não está interessada apenas em mostrar como uma sociedade pode controlar seus indivíduos, mas em investigar o que permanece quando quase tudo é retirado de uma pessoa.
 
 A resposta encontrada pelo romance está na memória e na linguagem.
