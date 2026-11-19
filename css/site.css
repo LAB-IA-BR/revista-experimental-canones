@@ -355,6 +355,15 @@ nav.sections.is-stuck {
   filter: saturate(0.94) contrast(1.06);
 }
 
+/* Destaque que precisa aparecer inteiro: proporção 3:2 e título sem sobrepor a imagem */
+.cover--inteira img {
+  aspect-ratio: 3 / 2;
+}
+
+.hero-lead:has(.cover--inteira) .hero-copy {
+  margin-top: 0;
+}
+
 .cover-credit {
   font-size: 0.7rem;
   color: var(--muted);
