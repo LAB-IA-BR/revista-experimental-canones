@@ -73,7 +73,7 @@ def _bloco(texto: str, rel: str) -> str:
     url = _url(rel)
     titulo = _titulo(texto)
     desc = _descricao(texto)
-    img = _imagem(texto, rel)
+    img = f"{DOMINIO}/{IMAGEM_PADRAO}" if rel == "index.html" else _imagem(texto, rel)
     artigo = _artigo(rel)
     e = lambda s: html.escape(s, quote=True)  # noqa: E731
     linhas = [INICIO]
