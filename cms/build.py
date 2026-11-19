@@ -539,6 +539,23 @@ def cover_block(entry: dict[str, Any], prefix: str) -> str:
 """
 
 
+def book_block(entry: dict[str, Any], prefix: str) -> str:
+    """Capa do livro resenhado, inteira e sem alteração, com ficha (campo book_cover)."""
+    capa = str(entry.get("book_cover") or "").strip()
+    if not capa:
+        return ""
+    alt = html.escape(str(entry.get("book_cover_alt") or "Capa do livro"), quote=True)
+    ficha = inline(str(entry.get("book_caption") or ""))
+    src = html.escape(f"{prefix}img/{capa}", quote=True)
+    legenda = f'\n      <figcaption class="premio-obra-legenda">{ficha}</figcaption>' if ficha else ""
+    return f"""    <div class="prose">
+    <figure class="premio-obra premio-obra--so-capa">
+      <div class="premio-obra-celula premio-obra-celula--capa"><span class="premio-obra-rotulo">O livro</span><img class="premio-obra-capa" src="{src}" alt="{alt}" width="300" height="450" decoding="async"></div>{legenda}
+    </figure>
+    </div>
+"""
+
+
 def piece_html(entry: dict[str, Any], prefix: str) -> str:
     title = str(entry.get("title") or entry["_slug"])
     eyebrow = str(entry.get("eyebrow") or "")
@@ -564,7 +581,7 @@ def piece_html(entry: dict[str, Any], prefix: str) -> str:
       <p class="deck">{inline(deck)}</p>
       <p class="byline">{byline_html(byline)}</p>{ficha}
     </header>
-{cover_block(entry, prefix)}
+{cover_block(entry, prefix)}{book_block(entry, prefix)}
     <div class="prose">
 {body_html}
     </div>

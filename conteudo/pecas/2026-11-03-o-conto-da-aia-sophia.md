@@ -10,15 +10,13 @@ nav: "critica"
 cover: "destaque-conto-da-aia.jpg"
 cover_wide: true
 cover_alt: "Colagem editorial: página rasgada com trechos tarjados da crítica, um recorte com a palavra “eu”, uma faixa vermelha e uma tira datilografada com “nolite te bastardes carborundorum”"
+book_cover: "capa-livro-o-conto-da-aia.png"
+book_cover_alt: "Capa da edição brasileira de O conto da aia, de Margaret Atwood (Rocco)"
+book_caption: "Margaret Atwood, *O conto da aia* (*The Handmaid's Tale*, 1985). Rio de Janeiro: Rocco, 2017. Capa: reprodução."
 cover_credit: "Ilustração: colagem da redação a partir do texto da crítica."
 ---
 
 Publicado em 1985, *O Conto da Aia*, de Margaret Atwood, continua sendo uma daquelas obras que parecem pertencer simultaneamente ao passado e ao presente. Ambientado na República de Gilead, um regime teocrático que transforma o controle dos corpos em política de Estado, o romance acompanha Offred, uma mulher que perdeu o direito de decidir sobre a própria vida e passou a existir principalmente em função de sua capacidade reprodutiva. No entanto, reduzir o livro a uma distopia sobre a opressão feminina seria ignorar justamente aquilo que o torna tão perturbador: Atwood não está interessada apenas em mostrar como uma sociedade pode controlar seus indivíduos, mas em investigar o que permanece quando quase tudo é retirado de uma pessoa.
-
-<figure class="premio-obra premio-obra--so-capa">
-  <div class="premio-obra-celula premio-obra-celula--capa"><span class="premio-obra-rotulo">Capa</span><img class="premio-obra-capa" src="../img/capa-livro-o-conto-da-aia.png" alt="Capa da edição brasileira de O conto da aia, de Margaret Atwood (Rocco)" width="300" height="450" loading="lazy" decoding="async"></div>
-  <figcaption class="premio-obra-legenda">Margaret Atwood, <em>O conto da aia</em> (<em>The Handmaid's Tale</em>, 1985). Rio de Janeiro: Rocco, 2017. Capa: reprodução.</figcaption>
-</figure>
 
 A resposta encontrada pelo romance está na memória e na linguagem.
 
