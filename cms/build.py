@@ -530,8 +530,11 @@ def cover_block(entry: dict[str, Any], prefix: str) -> str:
         f'\n      <p class="cover-credit">{html.escape(credit)}</p>' if credit else ""
     )
     src = html.escape(f"{prefix}img/{cover}", quote=True)
-    return f"""    <figure class="piece-cover">
-      <img src="{src}" alt="{html.escape(alt)}" width="960" height="960" loading="lazy">{credit_html}
+    larga = bool(entry.get("cover_wide"))
+    classe = "piece-cover piece-cover--larga" if larga else "piece-cover"
+    dim = 'width="1280" height="853"' if larga else 'width="960" height="960"'
+    return f"""    <figure class="{classe}">
+      <img src="{src}" alt="{html.escape(alt)}" {dim} loading="lazy">{credit_html}
     </figure>
 """
 

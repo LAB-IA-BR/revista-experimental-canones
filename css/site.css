@@ -1123,6 +1123,18 @@ nav.sections.is-stuck {
   background: var(--paper-deep);
 }
 
+.piece-cover--larga {
+  max-width: none;
+}
+
+.piece-cover--larga img {
+  aspect-ratio: 3 / 2;
+}
+
+.prose figure.premio-obra + p {
+  margin-top: 1.2rem;
+}
+
 .prose figure.premio-obra {
   display: grid;
   grid-template-columns: minmax(10rem, 13rem) minmax(5.75rem, 7.25rem);
