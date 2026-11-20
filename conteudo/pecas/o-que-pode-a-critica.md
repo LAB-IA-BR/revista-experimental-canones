@@ -17,6 +17,6 @@ Canonizar é um verbete curto para uma máquina longa: escolas, revistas, prêmi
 
 Por isso a dupla canonização. Primeiro, o modo como certas obras se tornam incontornáveis. Depois, o modo como certas intervenções — Auerbach, Barthes, Iser, Bourdieu, Spivak e as que a turma ainda vai nomear — também se tornam cânone, e passam a ser lidas como se sempre tivessem sido óbvias.
 
-A Revista Experimental de Crítica Literária ainda está em edição zero. Isso não é falta de marketing. É o primeiro exercício: fazer o veículo existir, publicar o gesto, disputar o cânone em público. Quem entra na redação escreve. Quem monitora uma região do mundo traz a prova de que a crítica, hoje, se publica em mais de um centro.
+A Revista Experimental de Crítica e Teoria Literária ainda está em edição zero. Isso não é falta de marketing. É o primeiro exercício: fazer o veículo existir, publicar o gesto, disputar o cânone em público. Quem entra na redação escreve. Quem monitora uma região do mundo traz a prova de que a crítica, hoje, se publica em mais de um centro.
 
 [Entrar na redação →](../colaborar.html)

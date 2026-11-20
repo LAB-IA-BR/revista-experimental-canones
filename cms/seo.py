@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 DOMINIO = "https://revistadecritica.labiaes.com.br"
-NOME = "Revista Experimental de Crítica Literária"
+NOME = "Revista Experimental de Crítica e Teoria Literária"
 IMAGEM_PADRAO = "img/compartilhar.jpg"
 IGNORAR = ("admin/", "cms/", "conteudo/", "node_modules/", ".github/")
 FORA_DO_SITEMAP = ("404.html", "redacao.html", "redacao/")

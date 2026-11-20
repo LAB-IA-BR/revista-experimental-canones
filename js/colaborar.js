@@ -25,7 +25,7 @@
     if (form.website && form.website.value) return;
 
     var payload = {
-      _subject: "Cadastro editorial — Revista Experimental de Crítica Literária (DLT13973)",
+      _subject: "Cadastro editorial — Revista Experimental de Crítica e Teoria Literária (DLT13973)",
       _template: "box",
       _captcha: "false",
       _honey: form.website ? form.website.value : "",
@@ -107,7 +107,7 @@
         ].join("\n");
         var mailto =
           "mailto:orlando.albertino@ufes.br?subject=" +
-          encodeURIComponent("Cadastro editorial — Revista Experimental de Crítica Literária (DLT13973)") +
+          encodeURIComponent("Cadastro editorial — Revista Experimental de Crítica e Teoria Literária (DLT13973)") +
           "&body=" +
           encodeURIComponent(body);
         var prefix =
