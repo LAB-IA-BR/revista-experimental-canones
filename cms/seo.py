@@ -19,6 +19,7 @@ IMAGEM_PADRAO = "img/compartilhar.jpg"
 IGNORAR = ("admin/", "cms/", "conteudo/", "node_modules/", ".github/")
 FORA_DO_SITEMAP = ("404.html", "redacao.html", "redacao/")
 SECOES_ARTIGO = ("pecas/", "estudantina/", "premios/", "indicacoes/", "sala/")
+CONTADOR = "https://revistadecritica.goatcounter.com/count"
 INICIO, FIM = "<!-- seo:inicio -->", "<!-- seo:fim -->"
 BLOCO_RE = re.compile(re.escape(INICIO) + r".*?" + re.escape(FIM) + r"\n?", re.S)
 
@@ -128,6 +129,9 @@ def _bloco(texto: str, rel: str) -> str:
         linhas.append('  <script type="application/ld+json">'
                       + json.dumps(dados, ensure_ascii=False)
                       + "</script>")
+    if rel != "404.html":
+        # Contador de visitas sem cookies (GoatCounter); ignora acessos locais.
+        linhas.append(f'  <script data-goatcounter="{CONTADOR}" async src="//gc.zgo.at/count.js"></script>')
     linhas.append(FIM)
     return "\n".join(linhas) + "\n"
 
