@@ -55,7 +55,7 @@ LISTAGENS: dict[str, dict[str, str]] = {
             "O gesto em público. Cada texto é instrumento de leitura e, ao mesmo "
             "tempo, objeto histórico — candidato, também ele, a cânone."
         ),
-        "description": "Peças de crítica da Revista Experimental de Crítica Literária.",
+        "description": "Peças de crítica da Revista Experimental de Crítica e Teoria Literária.",
         "nav": "critica",
         "before": "",
         "after": (
@@ -78,7 +78,7 @@ LISTAGENS: dict[str, dict[str, str]] = {
         ),
         "description": (
             "Estudantina: rascunhos e pautas da turma na Revista Experimental "
-            "de Crítica Literária."
+            "de Crítica e Teoria Literária."
         ),
         "nav": "estudantina",
         "before": (
@@ -120,7 +120,7 @@ LISTAGENS: dict[str, dict[str, str]] = {
             "nota aponta um sinal fora da página e diz por que a crítica "
             "internacional precisa dele agora."
         ),
-        "description": "Indicações da Revista Experimental de Crítica Literária.",
+        "description": "Indicações da Revista Experimental de Crítica e Teoria Literária.",
         "nav": "indicacoes",
         "before": """<div class="galeria-hub">
       <a href="../videos/index.html">
@@ -256,7 +256,7 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{desc_esc}">
-  <title>{title_esc} — Revista Experimental de Crítica Literária</title>
+  <title>{title_esc} — Revista Experimental de Crítica e Teoria Literária</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&display=swap" rel="stylesheet">
@@ -277,7 +277,7 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
       </div>
       <div class="masthead">
         <div class="masthead-brand">
-          <a class="wordmark" href="{prefix}index.html">Revista Experimental <span>de Crítica Literária</span></a>
+          <a class="wordmark" href="{prefix}index.html">Revista Experimental <span>de Crítica e Teoria Literária</span></a>
           <p class="tagline">{{ a revista da turma }}</p>
         </div>
         <p class="masthead-issue"><strong>00</strong><span>Edição zero · agosto a dezembro de 2026</span></p>
@@ -294,7 +294,7 @@ def chrome(title: str, description: str, prefix: str, current: str, main: str) -
   <footer class="site">
     <div class="wrap footer-inner">
       <div class="footer-col">
-        <p class="footer-wordmark">Revista Experimental de Crítica Literária</p>
+        <p class="footer-wordmark">Revista Experimental de Crítica e Teoria Literária</p>
         <p>Órgão da optativa Cânones da crítica internacional. Universidade Federal do Espírito Santo · Departamento de Letras.</p>
       </div>
       <div class="footer-col">
