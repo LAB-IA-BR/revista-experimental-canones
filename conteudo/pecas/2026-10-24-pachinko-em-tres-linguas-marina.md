@@ -8,6 +8,10 @@ date: 2026-10-24
 resumo: "O romance de Min Jin Lee entre o inglês, o coreano e o japonês, e a edição brasileira."
 equipe: "Ásia"
 nav: "critica"
+cover: "destaque-pachinko.jpg"
+cover_wide: true
+cover_alt: "Ilustração da redação: pinos de uma máquina de pachinko e três bolas em cores diferentes, uma para cada língua"
+cover_credit: "Ilustração provisória da redação; a turma pode propor a definitiva."
 ---
 
 Quem abre *Pachinko* em português lê a história de Sunja, uma jovem coreana que se casa, emigra para o Japão e vê quatro gerações da família enfrentarem a discriminação ao longo do século XX. O que poucos leitores percebem é que essa história, coreana e japonesa na origem, foi escrita em uma terceira língua.
