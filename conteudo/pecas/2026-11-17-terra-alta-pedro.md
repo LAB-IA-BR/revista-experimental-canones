@@ -7,6 +7,10 @@ byline: "Pedro Arthur Oliveira Effgem Miranda"
 date: 2026-11-17
 resumo: "Passado, paisagem e justiça em *Terra Alta*, de Javier Cercas."
 nav: "critica"
+cover: "destaque-terra-alta.jpg"
+cover_wide: true
+cover_alt: "Ilustração da redação: cordilheira em camadas ocre sob um sol baixo, evocando a paisagem da comarca de Terra Alta"
+cover_credit: "Ilustração provisória da redação; a turma pode propor a definitiva."
 ---
 
 **O Peso do Passado, a Paisagem e os Dilemas da Justiça em Terra Alta**
