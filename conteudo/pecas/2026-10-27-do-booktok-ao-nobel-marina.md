@@ -10,8 +10,8 @@ equipe: "Ásia"
 nav: "critica"
 cover: "destaque-booktok-nobel.jpg"
 cover_wide: true
-cover_alt: "Ilustração da redação: dois círculos, um rosa e um anel dourado, que quase não se cruzam, como as duas listas de literatura asiática"
-cover_credit: "Ilustração provisória da redação; a turma pode propor a definitiva."
+cover_alt: "Ilustração: de um lado, livros coloridos sob a luz rosa de um celular; do outro, livros escuros sob uma medalha dourada; um único livro entre as duas pilhas"
+cover_credit: "Ilustração da redação."
 ---
 
 A literatura asiática deixou de ser nicho no Brasil. Romances coreanos e japoneses ocupam as vitrines, circulam nos vídeos do BookTok e viram série de streaming. Em 2024, a sul-coreana Han Kang recebeu o Nobel de Literatura e consolidou o que as livrarias já sabiam: há um público ávido por histórias vindas do outro lado do mundo. Diante dessa onda, revistas e portais assumiram um papel que vai além de informar. Ao recomendar livros, eles escolhem o que merece ser lido, por quem e por quê.

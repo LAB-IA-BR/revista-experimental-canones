@@ -9,8 +9,8 @@ resumo: "Passado, paisagem e justiça em *Terra Alta*, de Javier Cercas."
 nav: "critica"
 cover: "destaque-terra-alta.jpg"
 cover_wide: true
-cover_alt: "Ilustração da redação: cordilheira em camadas ocre sob um sol baixo, evocando a paisagem da comarca de Terra Alta"
-cover_credit: "Ilustração provisória da redação; a turma pode propor a definitiva."
+cover_alt: "Ilustração: homem lê um livro grosso à beira de uma estrada de terra, com as montanhas e a vila de Terra Alta ao entardecer e uma viatura ao fundo"
+cover_credit: "Ilustração da redação."
 ---
 
 **O Peso do Passado, a Paisagem e os Dilemas da Justiça em Terra Alta**
