@@ -10,8 +10,8 @@ equipe: "Ásia"
 nav: "critica"
 cover: "destaque-pachinko.jpg"
 cover_wide: true
-cover_alt: "Ilustração da redação: pinos de uma máquina de pachinko e três bolas em cores diferentes, uma para cada língua"
-cover_credit: "Ilustração provisória da redação; a turma pode propor a definitiva."
+cover_alt: "Ilustração: máquina de pachinko com três bolas caindo por trilhas de cores diferentes, sobre o retrato de uma família de várias gerações"
+cover_credit: "Ilustração da redação."
 ---
 
 Quem abre *Pachinko* em português lê a história de Sunja, uma jovem coreana que se casa, emigra para o Japão e vê quatro gerações da família enfrentarem a discriminação ao longo do século XX. O que poucos leitores percebem é que essa história, coreana e japonesa na origem, foi escrita em uma terceira língua.

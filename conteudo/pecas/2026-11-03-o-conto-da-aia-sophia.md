@@ -9,8 +9,8 @@ resumo: "Memória, linguagem e resistência em *O conto da aia*, de Margaret Atw
 nav: "critica"
 cover: "destaque-conto-da-aia.jpg"
 cover_wide: true
-cover_alt: "Ilustração da redação: página rasgada com trechos tarjados da crítica, a palavra “eu”, uma tira datilografada com “nolite te bastardes carborundorum” e a capa da edição brasileira de O conto da aia (Rocco)"
-cover_credit: "Ilustração: colagem da redação a partir do texto da crítica, com a capa de O conto da aia (Margaret Atwood; Rio de Janeiro: Rocco, 2017). Capa: reprodução."
+cover_alt: "Ilustração: mulher de costas escreve numa mesa, num quarto vazio, cercada de tiras de papel que flutuam, algumas tarjadas, outras em vermelho"
+cover_credit: "Ilustração da redação."
 ---
 
 Publicado em 1985, *O Conto da Aia*, de Margaret Atwood, continua sendo uma daquelas obras que parecem pertencer simultaneamente ao passado e ao presente. Ambientado na República de Gilead, um regime teocrático que transforma o controle dos corpos em política de Estado, o romance acompanha Offred, uma mulher que perdeu o direito de decidir sobre a própria vida e passou a existir principalmente em função de sua capacidade reprodutiva. No entanto, reduzir o livro a uma distopia sobre a opressão feminina seria ignorar justamente aquilo que o torna tão perturbador: Atwood não está interessada apenas em mostrar como uma sociedade pode controlar seus indivíduos, mas em investigar o que permanece quando quase tudo é retirado de uma pessoa.
