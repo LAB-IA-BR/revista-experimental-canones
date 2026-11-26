@@ -247,8 +247,18 @@ def footer_nav_html(prefix: str) -> str:
     return "\n          ".join(links)
 
 
+def titulo_html(texto: str) -> str:
+    """Escapa o título e converte *trecho* (itálico do Markdown) em <em>."""
+    return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", html.escape(texto))
+
+
+def titulo_texto(texto: str) -> str:
+    """Título sem marcas de itálico, para <title>, alt e metadados."""
+    return texto.replace("*", "")
+
+
 def chrome(title: str, description: str, prefix: str, current: str, main: str) -> str:
-    title_esc = html.escape(title)
+    title_esc = html.escape(titulo_texto(title))
     desc_esc = html.escape(description)
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -524,7 +534,7 @@ def cover_block(entry: dict[str, Any], prefix: str) -> str:
     cover = str(entry.get("cover") or "").strip()
     if not cover:
         return ""
-    alt = str(entry.get("cover_alt") or entry.get("title") or "").strip()
+    alt = titulo_texto(str(entry.get("cover_alt") or entry.get("title") or "")).strip()
     credit = str(entry.get("cover_credit") or "").strip()
     credit_html = (
         f'\n      <p class="cover-credit">{html.escape(credit)}</p>' if credit else ""
@@ -560,7 +570,7 @@ def piece_html(entry: dict[str, Any], prefix: str) -> str:
         ficha = f'\n      <p class="premio-situacao">{html.escape(situacao)}{link}</p>'
     main = f"""    <header class="piece-head">
       <p class="eyebrow">{html.escape(eyebrow)}</p>
-      <h1>{html.escape(title)}</h1>
+      <h1>{titulo_html(title)}</h1>
       <p class="deck">{inline(deck)}</p>
       <p class="byline">{byline_html(byline)}</p>{ficha}
     </header>
@@ -622,7 +632,7 @@ def note_row(
         <time datetime="{html.escape(iso)}">{html.escape(data_curta(iso))}</time>{thumb_html}
         <div>
           <p class="note-kicker">{html.escape(kicker)}</p>
-          <h2><a href="{html.escape(href)}">{html.escape(title)}</a></h2>{byline_block}
+          <h2><a href="{html.escape(href)}">{titulo_html(title)}</a></h2>{byline_block}
           <p>{inline(resumo)}</p>
         </div>
       </article>"""
@@ -642,7 +652,7 @@ def listing_html(secao: str, entries: list[dict[str, Any]], prefix: str) -> str:
     ]
     main = f"""    <header class="page-intro">
       <p class="eyebrow">{html.escape(info["eyebrow"])}</p>
-      <h1 class="page-title">{html.escape(info["title"])}</h1>
+      <h1 class="page-title">{titulo_html(info["title"])}</h1>
       <p class="deck">{html.escape(info["deck"])}</p>
     </header>
     {info.get("before") or ""}<div class="notes">
@@ -669,7 +679,7 @@ def premios_html(entries: list[dict[str, Any]]) -> str:
                 f"""      <article class="note-row">
         <p class="premio-pais">{html.escape(str(e.get("pais") or ""))}</p>
         <div>
-          <h2><a href="{html.escape(e['_slug'])}.html">{html.escape(str(e.get("title") or e["_slug"]))}</a></h2>
+          <h2><a href="{html.escape(e['_slug'])}.html">{titulo_html(str(e.get("title") or e["_slug"]))}</a></h2>
           <p>{inline(str(e.get("resumo") or e.get("deck") or ""))}</p>
           <p class="premio-linha">{html.escape(str(e.get("situacao") or ""))}</p>
         </div>
