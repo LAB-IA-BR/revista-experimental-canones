@@ -156,6 +156,12 @@ a:hover {
   min-width: 0;
 }
 
+.masthead-title {
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
 .wordmark {
   font-family: var(--display);
   font-weight: 800;
@@ -299,6 +305,7 @@ nav.sections.is-stuck {
 }
 
 .hero h1,
+.hero .hero-title,
 .piece-head h1,
 .page-title {
   font-family: var(--display);
@@ -312,12 +319,14 @@ nav.sections.is-stuck {
 }
 
 .hero h1 a,
+.hero .hero-title a,
 .card h2 a,
 .rail h3 a {
   text-decoration: none;
 }
 
 .hero h1 a:hover,
+.hero .hero-title a:hover,
 .card h2 a:hover,
 .rail h3 a:hover {
   text-decoration: underline;
